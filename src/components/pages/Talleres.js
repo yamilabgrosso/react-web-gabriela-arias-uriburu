@@ -6,7 +6,6 @@ import '../Cards.css';
 import CardItem from '../CardItem';
 import Footer from '../Footer';
 import { AnimatePresence } from 'framer-motion';
-import Modal from '../Modal';
 //import Cards from '../Cards';
 
 
