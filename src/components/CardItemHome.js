@@ -2,23 +2,15 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
-import Modal from './Modal';
 
-function CardItem(props) {
-
-  const [showModal, setShowModal] = useState(false);
-
-  const onHandleClick = () => {
-    setShowModal(true)
-  }
+function CardItemHome(props) {
 
 
   return (
     <>
-    <Modal textModal={props.textoModal} showModal={showModal} setShowModal={setShowModal}></Modal>
-      <li className='cards__item' onClick={() => onHandleClick()}>
+      <li className='cards__item'>
         
-        <Link className='cards__item__link'>
+        <Link className='cards__item__link' to={props.path}>
           <figure className='cards__item__pic-wrap'>
             <img
               className='cards__item__img'
@@ -27,9 +19,9 @@ function CardItem(props) {
             />
           </figure>
           <div className='cards__item__info'>
-            <h2 className='cards__item__title'>{props.nombre}</h2>
+            <h2 className='cards__item__title'>{props.titulo}</h2>
             <h5 className='cards__item__text'>{props.texto}</h5>
-            <Button className="btn--primary">Ver más</Button>
+            <Button className="btn--primary">{props.textoBoton}</Button>
           </div>
 
         </Link>
@@ -39,4 +31,4 @@ function CardItem(props) {
   );
 }
 
-export default CardItem;
+export default CardItemHome;

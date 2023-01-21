@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "imagen": "images/img-1.jpg",
+        "titulo": "Talleres",
+        "texto": "Un viaje al encuentro de tu esencia con herramientas propias para dejar de ser víctima y convertirte en protagonista de tu vida.",
+        "path": "/talleres",
+        "textoBoton": "Inscribirme"
+    },
+    {
+        "id": 2,
+        "imagen": "images/img-2.jpg",
+        "titulo": "Lirbos",
+        "texto": "Un recorrido por mi bibliografía, para que juntas podamos seguir creciendo y sanando.",
+        "path": "/libros",
+        "textoBoton": "Comprar"
+    }
+]
