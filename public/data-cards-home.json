@@ -10,7 +10,7 @@
     {
         "id": 2,
         "imagen": "images/img-2.jpg",
-        "titulo": "Lirbos",
+        "titulo": "Libros",
         "texto": "Un recorrido por mi bibliografía, para que juntas podamos seguir creciendo y sanando.",
         "path": "/libros",
         "textoBoton": "Comprar"

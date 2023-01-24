@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -76,12 +76,10 @@
   }
 
   .nav-menu {
-    display: flex;
-    flex-direction: column;
+    display: none;
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 80px;
     right: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -89,7 +87,10 @@
   }
 
   .nav-menu.active {
+    display: flex;
+    flex-direction: column;
     background: #fff;
+    margin-top: 60vh;
     right: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -102,8 +103,8 @@
     padding: 2rem;
     width: 100%;
     display: table;
-
-    
+    background-color: #fff;
+    margin:0;
   }
 
   .nav-links:hover {
