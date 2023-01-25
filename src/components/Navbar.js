@@ -15,7 +15,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img className="logo" src={logo} alt="logo gabriela arias uriburu" height="120px"></img>
+            <img className="logo" src={logo} alt="logo gabriela arias uriburu" height="80px"></img>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

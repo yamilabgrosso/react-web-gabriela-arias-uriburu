@@ -14,5 +14,30 @@
         "texto": "Un recorrido por mi bibliografía, para que juntas podamos seguir creciendo y sanando.",
         "path": "/libros",
         "textoBoton": "Comprar"
+    },
+    {
+        "id": 3,
+        "imagen": "images/img-3.jpg",
+        "titulo": "Prensa",
+        "texto": "En esta sección encontrarás algunos momentos compartidos en distintos medios de comunicación.",
+        "path": "/prensa",
+        "textoBoton": "Ver más"
+    },
+    {
+        "id": 4,
+        "imagen": "images/img-4.jpg",
+        "titulo": "Sobre Nosotras",
+        "texto": "Nuestro espíritu y corazón. Te invitamos a conocernos.",
+        "path": "/nosotras",
+        "textoBoton": "Ver más"
+    },
+
+    {
+        "id": 5,
+        "imagen": "images/img-5.jpg",
+        "titulo": "Comunidad Klouser",
+        "texto": "Te invitamos a ser parte de nuestra comunidad exclusiva.",
+        "path": "/nosotras",
+        "textoBoton": "Ver más"
     }
 ]

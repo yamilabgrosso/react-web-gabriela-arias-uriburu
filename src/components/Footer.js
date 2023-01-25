@@ -20,7 +20,7 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
-              to='/'
+              to='https://es-la.facebook.com/GabrielaAriasUriburuOficial/'
               target='_blank'
               aria-label='Facebook'
             >
@@ -28,7 +28,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link twitter'
-              to='/'
+              to='https://twitter.com/ariasuriburu'
               target='_blank'
               aria-label='Twitter'
             >
@@ -36,7 +36,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/gabrielaariasuriburu/?hl=es'
               target='_blank'
               aria-label='Instagram'
             >
@@ -44,7 +44,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link youtube'
-              to='/'
+              to='https://www.youtube.com/c/gabrielaariasuriburu'
               target='_blank'
               aria-label='Youtube'
             >

@@ -4,27 +4,62 @@
         "imagen": "images/img-libros-1.jpg",
         "nombre": "Enemigo Intimo",
         "texto": "Todo lo que sucede te empuja, te lleva al encuentro con vos misma. Ya no hay que salvar a nadie, ni nadie viene a rescatarte",
-        "textoModal": "Sarasa"
+        "textoModal": "INFO MODAL..."
     },
     {
         "id": 2,
-        "imagen": "images/img-libros-1.jpg",
-        "nombre": "Enemigo Intimo",
-        "texto": "Todo lo que sucede te empuja, te lleva al encuentro con vos misma. Ya no hay que salvar a nadie, ni nadie viene a rescatarte",
-        "textoModal": "Sarasa"
+        "imagen": "images/talleres-la-herida.jpg",
+        "nombre": "La Herida",
+        "texto": "Al encuentro del corazón delata todo aquello que sucede en el interior de una mujer y de un hombre. Hay una finalidad y es llegar al corazón...",
+        "textoModal": "INFO MODAL..."
     },
     {
         "id": 3,
-        "imagen": "images/img-libros-1.jpg",
-        "nombre": "Enemigo Intimo",
-        "texto": "Todo lo que sucede te empuja, te lleva al encuentro con vos misma. Ya no hay que salvar a nadie, ni nadie viene a rescatarte",
-        "textoModal": "Sarasa"
+        "imagen": "images/talleres-madre-exito.jpg",
+        "nombre": "La Madre - El Éxito",
+        "texto": "Nuestro mayor éxito es nuestro nacimiento, ese es nuestro primer acto voluntario.",
+        "textoModal": "INFO MODAL..."
     },
     {
         "id": 4,
-        "imagen": "images/img-libros-1.jpg",
-        "nombre": "Enemigo Intimo",
-        "texto": "Todo lo que sucede te empuja, te lleva al encuentro con vos misma. Ya no hay que salvar a nadie, ni nadie viene a rescatarte",
-        "textoModal": "Sarasa"
+        "imagen": "images/talleres-madre-abundancia.jpg",
+        "nombre": "LA MADRE - LA ABUNDANCIA",
+        "texto": "El vínculo con la madre es vital porque ella es la primera que nos vincula con la vida, la abundancia y el amor (el amor en la pareja).",
+        "textoModal": "INFO MODAL..."
+    },
+    {
+        "id": 5,
+        "imagen": "images/talleres-madre-pareja.jpg",
+        "nombre": "LA MADRE - LA PAREJA",
+        "texto": "La pareja es el espacio de mayor intimidad de nuestras vidas y la primera relación de amor la vivimos con mamá, es con ella que aprendemos a amar.",
+        "textoModal": "INFO MODAL..."
+    },
+    {
+        "id": 6,
+        "imagen": "images/talleres-la-pareja.jpg",
+        "nombre": "TALLER LA PAREJA",
+        "texto": "La Pareja es el espacio de mayor desafío de nuestras vidas, nos invita a crear un sistema propio, dándole lugar a la intimidad. Es en la pareja donde reúno lo distinto a mí.",
+        "textoModal": "INFO MODAL..."
+    },
+    {
+        "id": 7,
+        "imagen": "images/talleres-madre-vida.jpg",
+        "nombre": "LA MADRE - LA VIDA",
+        "texto": "Recobrar mi lugar, respetar y aceptar a mamá exactamente como es, es el desafío que te proponemos en este taller.",
+        "textoModal": "INFO MODAL..."
+    },
+    {
+        "id": 8,
+        "imagen": "images/talleres-papa-mama.jpg",
+        "nombre": "TALLER PAPÁ - MAMÁ",
+        "texto": "Somos la reunión de dos distintos, Mamá y Papá, es a través de ellos que tomamos la vida.",
+        "textoModal": "INFO MODAL..."
+    },
+    {
+        "id": 9,
+        "imagen": "images/talleres-patito-feo.jpg",
+        "nombre": "TALLER PATITO FEO",
+        "texto": "Lorem Ipsum.",
+        "textoModal": "INFO MODAL..."
     }
 ]
