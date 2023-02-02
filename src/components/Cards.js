@@ -6,13 +6,6 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <div className='gabriela-intro'>
-      <h1>Soy Gabriela Arias Uriburu</h1>
-      <h2>y desde mi historia de vida es que comencé todo
-        <br></br> un camino de resiliencia y transformación que
-        <br></br> quiero compartir con vos
-        </h2>
-      </div>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

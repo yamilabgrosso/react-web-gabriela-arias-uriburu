@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Talleres from './components/pages/Talleres';
 import Home from './components/pages/Home';
 import Navbar from './components/Navbar';
+import Encuentros from './components/pages/Encuentros';
+import Libros from './components/pages/Libros';
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home />} />
-          <Route path='/talleres' element={<Talleres />} />          
+          <Route path='/talleres' element={<Talleres />} />    
+          <Route path='/encuentros' element={<Encuentros />}/>    
+          <Route path='/mislibros' element={<Libros />}/>      
         </Routes>
       </Router>
 

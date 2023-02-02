@@ -22,10 +22,10 @@ function Talleres() {
 
   <AnimatePresence mode="wait">
     
-    <div className='gabriela-intro' style={{ paddingTop: '1rem'}}>
+    <div className='gabriela-intro'>
         <h1 style={{color: "#c38820"}}>Talleres</h1>
-        <h2>Te proponemos un viaje al encuentro de tu<br>
-        </br> esencia con herramientas propias para dejar de<br></br> ser víctima y convertirte en protagonista de tu propia vida.</h2>
+        <h2>Te proponemos un viaje al encuentro de tu
+         esencia con herramientas propias para dejar de ser víctima y convertirte en protagonista de tu propia vida.</h2>
         </div>
     <div className='cards' style={{ paddingTop: '.2rem'}}>
 

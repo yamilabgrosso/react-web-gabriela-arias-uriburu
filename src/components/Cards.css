@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 0 4rem 0;
   background: #eef8fe;
 
 }
@@ -8,22 +8,6 @@ h1 {
   text-align: center;
 }
 
-.gabriela-intro{
-  font-family: 'Montserrat';
-  font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 2rem; 
-}
-
-.gabriela-intro h1{
-    color: #588290;
-    padding-bottom: 1rem;
-  }
-
 
 
 .cards__container {
@@ -31,7 +15,7 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 
 }
@@ -116,16 +100,18 @@ h1 {
 
 .cards__item__title {
   color: #000;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 22px;
   margin: 0rem 0rem 1rem 0rem
 }
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  height: 4rem;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 24px;
+  text-align: justify;
+  line-height: 18px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -167,4 +153,19 @@ h1 {
     margin: 1.3rem
   }
   
+}
+
+@media screen and (max-device-width: 599px), screen and (max-width: 599px) {
+
+
+  h2 {
+    font-size: 1rem;
+  } .cards__item__text {
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  } .cards__item__info {
+    padding: 10px;
+  }
 }

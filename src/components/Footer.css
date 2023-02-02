@@ -48,7 +48,7 @@
 /* Social Icons */
 .social-icon-link {
   color: #588290;
-  font-size: 34px;
+  font-size: 25px;
 }
 
 .social-icon-link:hover {
@@ -91,6 +91,7 @@
 .website-rights {
   color: #000;
   margin-bottom: 16px;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 820px) {

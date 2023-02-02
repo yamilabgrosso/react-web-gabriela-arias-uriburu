@@ -19,8 +19,8 @@ function Home() {
       <div className='gabriela-intro'>
       <h1>Soy Gabriela Arias Uriburu</h1>
       <h2>y desde mi historia de vida es que comencé todo
-        <br></br> un camino de resiliencia y transformación que
-        <br></br> quiero compartir con vos
+       un camino de resiliencia y transformación que
+       quiero<span style={{fontWeight: 600}}> compartir con vos</span>
         </h2>
       </div>
       <div className='cards__container'>
