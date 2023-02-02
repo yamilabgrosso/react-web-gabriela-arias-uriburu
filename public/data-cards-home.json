@@ -12,7 +12,7 @@
         "imagen": "images/img-2.jpg",
         "titulo": "Libros",
         "texto": "Un recorrido por mi bibliografía, para que juntas podamos seguir creciendo y sanando.",
-        "path": "/libros",
+        "path": "/mislibros",
         "textoBoton": "Comprar"
     },
     {

@@ -7,7 +7,8 @@ import Talleres from './components/pages/Talleres';
 import Home from './components/pages/Home';
 import Navbar from './components/Navbar';
 import Encuentros from './components/pages/Encuentros';
-import Libros from './components/pages/Libros';
+import MisLibros from './components/pages/MisLibros';
+import Nosotras from './components/pages/Nosotras';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
           <Route path='/' exact element={<Home />} />
           <Route path='/talleres' element={<Talleres />} />    
           <Route path='/encuentros' element={<Encuentros />}/>    
-          <Route path='/mislibros' element={<Libros />}/>      
+          <Route path='/mislibros' element={<MisLibros />}/>      
+          <Route path='/nosotras' element={<Nosotras />} />
         </Routes>
       </Router>
 

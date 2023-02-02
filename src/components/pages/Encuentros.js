@@ -1,9 +1,10 @@
 import React from 'react'
-import { Button } from '../Button'
+import { Button } from '../Button';
+import Footer from '../Footer';
 
 function Encuentros() {
   return (
-    <div className='gabriela-intro'>
+    <>    <div className='gabriela-intro'>
         <h1 style={{color: "#c38820"}}>Encuentros</h1>
         <div style={{ paddingBottom: '0.5rem'}}>
         <h2>La vida nos encuentra de diferentes maneras, en este espacio las invitamos a compartir y disfrutar de un lugar en común. </h2>
@@ -13,6 +14,9 @@ function Encuentros() {
         </div>
         <Button>Esperamos tu invitación</Button>
     </div>
+          <Footer />
+          </>
+
   )
 }
 

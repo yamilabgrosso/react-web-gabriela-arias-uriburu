@@ -107,7 +107,7 @@ h1 {
 
 .cards__item__text {
   color: #252e48;
-  height: 4rem;
+  height: auto;
   font-size: 14px;
   font-weight: 300;
   text-align: justify;

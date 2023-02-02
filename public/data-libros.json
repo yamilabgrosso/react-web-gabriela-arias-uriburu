@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "imagen": "images/img-1.jpg",
+        "titulo": "Salvaje o Domesticada",
+        "texto": "Cómo liberar tu femenino profundo” es un libro-taller que nos invita a conectar con la “mujer salvaje”, que es la mujer esencial, aquella que por alguna razón dejó de vibrar o estar presente, por seguir tradiciones, sistemas, mandatos, sistemas de creencias, la herida ancestral, etc. Presenta, mediante imágenes escondidas en un cuento, las trampas en las que podemos caer o ya hemos caído; las trampas que nos arrojan a vivir desconectadas de nuestro sentir profundo, de la vida hecha a mano. Se trata de un libro hecho para mirar nuestra herida, entenderla y sanarla.",
+        "path": "https://www.kier.com.ar/Papel/9789501760361/Salvaje+O+Domesticada",
+        "textoBoton": "Comprar"
+    },
+    {
+        "id": 2,
+        "imagen": "images/img-2.jpg",
+        "titulo": "Enemigo Íntimo",
+        "texto": "La vida en general, y las historias de cada uno de nosotros en particular, consisten en encuentros. Algunos agradables, otros que parecen serlo y, de pronto, nos tropezamos con el horror. Entonces nos preguntamos: “¿por qué me encontré yo con esto?”. Cuando esto sucede debiéramos indagar qué está sucediendo en nuestro interior que nos lleva a conectarnos con esa persona que nos consume, nos limita, nos depreda: Nuestro “Enemigo intimo”. La consigna es convertirnos en lectores de nuestro nconsciente, y para ello tenemos que entrar en una parte de él, que nos es esconocida y, a la vez, es nuestra. No es precisamente una zona bonita, pero es necesario conocer ese territorio si queremos transformarnos en seres fuertes y reales.",
+        "path": "https://www.kier.com.ar/Papel/9789501729986/Enemigo+Intimo",
+        "textoBoton": "Comprar"
+    },
+    {
+        "id": 3,
+        "imagen": "images/img-3.jpg",
+        "titulo": "Al encuentro del corazón",
+        "texto": "Al encuentro del corazón se sumerge en lo más profundo de nuestras relaciones, allí donde el hombre y la mujer necesitan comprender que para llegar al  amor hay ciclos que atravesar. Inspirado en un antiguo cuento de origen esquimal, este libro-taller se convierte en una herramienta que posee el extraordinario valor testimonial de su autora, invitándonos al camino donde es posible encontrarnos y sanar nuestros vínculos.",
+        "path": "https://www.kier.com.ar/Papel/9789501729276/Al+Encuentro+Del+Corazon",
+        "textoBoton": "Comprar"
+    },
+    {
+        "id": 4,
+        "imagen": "images/img-4.jpg",
+        "titulo": "Después de todo",
+        "texto": "Éste es un valioso y excepcional libro. El testimonio vivo de la historia de una familia desgarrada por la diferencia entre dos culturas. Gabriela recorrió regiones distantes y atravesó trayectos extensos entre los continentes, soportando los  obstáculos y tolerando las dificultades, una y otra y otra vez, impulsada por el amor y la intuición materna, con el objetivo de poder, aunque sea por unas horas, ver a sus niños e intercambiar con ellos el calor y la ternura del abrazo y las caricias. No sólo aprendió a vincularse a la distancia, sino también, a buscar y encontrar dentro de ella los elementos a partir de los cuales sanar su historia. Pudo además mantener sanos y salvos sus sentidos del humor y del amor, lo cual fue de capital importancia para el resultado alcanzado.",
+        "path": "https://www.kier.com.ar/Papel/9789501737035/Despu%C3%A9s+De+Todo++++El+Amor+Lo+Hizo+Posible",
+        "textoBoton": "Comprar"
+    },
+
+    {
+        "id": 5,
+        "imagen": "images/img-5.jpg",
+        "titulo": "Vínculos",
+        "texto": "Es una obra práctica y testimonial, que sugiere pautas y hábitos sanadores, orienta en las situaciones límite y focaliza en el autoconocimiento, para ayudarnos a hacer de nuestra vida una experiencia digna, vinculados en plenitud y especialmente, en libertad. Es una guía de superación para quienes buscan la armonía personal, la paz familiar y el amor incondicional. ",
+        "path": "https://www.kier.com.ar/Papel/9789871853076/Vinculos",
+        "textoBoton": "Comprar"
+    }
+]
