@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Encuentros from './components/pages/Encuentros';
 import MisLibros from './components/pages/MisLibros';
 import Nosotras from './components/pages/Nosotras';
+import Prensa from './components/pages/Prensa';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/encuentros' element={<Encuentros />}/>    
           <Route path='/mislibros' element={<MisLibros />}/>      
           <Route path='/nosotras' element={<Nosotras />} />
+          <Route path='/prensa' element={<Prensa />} />
         </Routes>
       </Router>
 

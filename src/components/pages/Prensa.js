@@ -3,46 +3,45 @@ import '../../App.css';
 import axios from 'axios';
 import '../Cards.css';
 import Footer from '../Footer';
-import CardItemLibros from '../CardItemLibros';
+import CardItemPrensa from '../CardItemPrensa';
 
-function MisLibros() {
+function Prensa() {
 
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-      axios('../data-libros.json').then((res) => setItems (res.data));
+      axios('../data-prensa.json').then((res) => setItems (res.data));
       
      }, []);
-
-
   return (
     <>
-    <div className="gabriela-intro">
-        <h1 style={{color: "#c38820"}}>Mis Libros</h1>
-        <h2>Te invito a un recorrido por mi bibliografía, para que juntas podamos seguir creciendo y sanando.</h2>
-    </div>
-     <div className='cards__container'>
+      <div className="gabriela-intro">
+        <h1>Prensa</h1>
+        <h2>En esta sección encontrarás algunos momentos compartidos en distintos
+        medios de comunicación</h2>
+      </div>
+      <div className='cards__container'>
             <div className='cards__wrapper'>
             <ul className='cards__items' >
             { 
-                items.map(({ id, imagen, titulo, texto, path, textoBoton }) => (
-                <CardItemLibros
+                items.map(({ id, imagen, titulo, path, textoBoton }) => (
+                <CardItemPrensa
                 key={id}
                 imagen={imagen}
                 titulo={titulo}
-                texto={texto}
+
                 path={path}
                 textoBoton={textoBoton}
                 >
-                </CardItemLibros>
+                </CardItemPrensa>
                 ))
             }
         </ul>
         </div>
    </div>
    <Footer />
-   </>
-  )
+    </>
+  );
 }
 
-export default MisLibros;
+export default Prensa;
