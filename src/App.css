@@ -11,8 +11,7 @@ body {
 
 }
 .home,
-.services,
-.products,
+
 .encuentros {
   display: flex;
   height: 90vh;
@@ -51,7 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 600px;
+    width: 620px;
     margin: 0 auto;
     padding-top: 2rem;
    
@@ -127,14 +126,14 @@ body {
 
 
 .modal {
-  max-width: 400px;
+  max-width: 80vw;
   box-shadow: 0 4px 14px 0 rgb(0 0 0 / 50%);
-  max-height: 200px;
-  min-width: 300px;
+  max-height: 600px;
+/*   overflow-y: auto; */
+  /* min-width: 600px; */
   min-height: 150px;
   margin: 0 auto;
   padding: 40px 20px;
-
 background: white;
 border-radius: 10px;
 display: flex;
@@ -144,30 +143,55 @@ justify-content: center;
 text-align: center;
 }
 
-.modal h2 {
+.modal p {
   color: #444;
- 
+  font-size: 14px;
+  margin: 0 2rem 1rem 2rem ;
+  line-height: 18px;
 }
 
+.infoModal{
+  background-color: #588290;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+
+.p-info {
+  max-width: 70vw;
+  margin: 0px!important;
+  color: white!important;
+  padding: 1em!important;
+}
+
+.modalOrangeBox{
+  border-radius: 10px;
+  border:1px solid #cfab2e;
+  padding: 1rem;
+}
 
 @media screen and (max-device-width: 599px), screen and (max-width: 599px) {
 		  
   .nosotras {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 400px;
   }
 
   .nosotras-col{
     padding-top: 2rem;
     margin: 0 auto;
-    width: 300px;
+    width: 100%;
   }
 
   
   .nosotras-col2{
     padding-top: 2rem;
     margin: 0 auto;
-    width: 300px;
+    width: 100%;
   }
 
   .container {
@@ -192,14 +216,28 @@ text-align: center;
   }
 
   .gabriela-intro h1{
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   img-container{
     width: 100vw;
   }
+
+  .modal{
+    margin: 0.5rem auto!important;
+    height: 800px;
+  }
   
-		 
+.modal p {
+  margin: 0rem 0rem 1rem 0rem;
+  font-size: 11px;
+  text-align: justify;
+}
+
+.p-info{
+  text-align: center!important;
+  font-size: 14px!important;
+}
 }
 
 .backdrop {
@@ -212,10 +250,6 @@ text-align: center;
   z-index: 1;
 }
 
-.modal {
-max-width: 200px;
-
-}
 
 
 

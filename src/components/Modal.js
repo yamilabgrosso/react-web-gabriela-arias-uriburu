@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import Button from '@mui/material/Button';
+//import Button from '@mui/material/Button';
+import ModalEnemigoIntimo from './ModalEnemigoIntimo';
+import ModalPrueba from './ModalPrueba';
 
 
 const backdrop = {
@@ -14,7 +16,7 @@ const modal = {
         opacity: 0
     },
     visible: {
-        y: "200px",
+        y: "100px",
         opacity: 1,
         transition: {delay: 0.5}
     }
@@ -29,8 +31,15 @@ const handleClick = (e, setShowModal) => {
     setShowModal(false);
 };
 
+var components = {
+    "ModalEnemigoIntimo": ModalEnemigoIntimo,
+    "ModalPrueba": ModalPrueba
+  };
+  
+
 
 const Modal = ({ textModal, showModal, setShowModal }) => {
+      var Component = components[textModal];
     return (
         <AnimatePresence mode="wait" >
             { showModal && (
@@ -45,9 +54,10 @@ const Modal = ({ textModal, showModal, setShowModal }) => {
                      variants={modal} 
                      >
                     
-                        <h2 style={{paddingBottom: '30px'}}>{textModal}</h2>
+                    <Component />
+                        {/* <p style={{paddingBottom: '30px'}}>{textModal}</p> */}
                      
-                       <Button onClick={()=> setShowModal(false)} className='button' variant="outlined" style={{color: "black"}}>Exit</Button>
+                     {/*   <Button onClick={()=> setShowModal(false)} className='button' variant="outlined" style={{color: "black"}}>Exit</Button> */}
                     </motion.div>
                 </motion.div>
                

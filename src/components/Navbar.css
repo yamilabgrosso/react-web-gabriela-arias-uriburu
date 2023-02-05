@@ -19,9 +19,14 @@
 }
 
 .navbar-logo {
+  color: #fff;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .fa-typo3 {
@@ -149,5 +154,14 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(5%, 10%);
   }
 }

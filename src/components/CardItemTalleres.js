@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import Modal from './Modal';
 
-function CardItem(props) {
+function CardItemTalleres(props) {
 
   const [showModal, setShowModal] = useState(false);
 
@@ -15,7 +15,9 @@ function CardItem(props) {
 
   return (
     <>
+  
     <Modal textModal={props.textoModal} showModal={showModal} setShowModal={setShowModal}></Modal>
+
       <li className='cards__item' onClick={() => onHandleClick()}>
         
         <Link className='cards__item__link'>
@@ -35,8 +37,9 @@ function CardItem(props) {
         </Link>
      
       </li>
+      
     </>
   );
 }
 
-export default CardItem;
+export default CardItemTalleres;

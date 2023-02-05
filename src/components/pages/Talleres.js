@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import '../../App.css';
 import axios from 'axios';
 import '../Cards.css';
-import CardItem from '../CardItem';
+import CardItemTalleres from '../CardItemTalleres';
 import Footer from '../Footer';
 import { AnimatePresence } from 'framer-motion';
 //import Cards from '../Cards';
@@ -34,14 +34,14 @@ function Talleres() {
           <ul className='cards__items' >
           { 
             items.map(({ id, imagen, nombre, texto, textoModal }) => (
-              <CardItem 
+              <CardItemTalleres
               key={id}
               imagen={imagen}
               nombre={nombre}
               texto={texto}
               textoModal={textoModal}
               >
-              </CardItem>
+              </CardItemTalleres>
             ))
           }
 

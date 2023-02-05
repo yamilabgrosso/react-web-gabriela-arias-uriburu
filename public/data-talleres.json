@@ -4,7 +4,7 @@
         "imagen": "images/img-libros-1.jpg",
         "nombre": "Enemigo Intimo",
         "texto": "Todo lo que sucede te empuja, te lleva al encuentro con vos misma. Ya no hay que salvar a nadie, ni nadie viene a rescatarte",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalEnemigoIntimo"
     },
     {
         "id": 2,
@@ -18,7 +18,7 @@
         "imagen": "images/talleres-madre-exito.jpg",
         "nombre": "La Madre - El Éxito",
         "texto": "Nuestro mayor éxito es nuestro nacimiento, ese es nuestro primer acto voluntario.",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalPrueba"
     },
     {
         "id": 4,
