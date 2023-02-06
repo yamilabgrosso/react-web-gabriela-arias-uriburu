@@ -11,21 +11,21 @@
         "imagen": "images/talleres-la-herida.jpg",
         "nombre": "La Herida",
         "texto": "Al encuentro del corazón delata todo aquello que sucede en el interior de una mujer y de un hombre. Hay una finalidad y es llegar al corazón...",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalLaHerida"
     },
     {
         "id": 3,
         "imagen": "images/talleres-madre-exito.jpg",
         "nombre": "La Madre - El Éxito",
         "texto": "Nuestro mayor éxito es nuestro nacimiento, ese es nuestro primer acto voluntario.",
-        "textoModal": "ModalPrueba"
+        "textoModal": "MadreExito"
     },
     {
         "id": 4,
         "imagen": "images/talleres-madre-abundancia.jpg",
         "nombre": "LA MADRE - LA ABUNDANCIA",
         "texto": "El vínculo con la madre es vital porque ella es la primera que nos vincula con la vida, la abundancia y el amor (el amor en la pareja).",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "LaMadreLaAbundancia"
     },
     {
         "id": 5,

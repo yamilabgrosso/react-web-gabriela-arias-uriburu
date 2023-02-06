@@ -2,7 +2,9 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 //import Button from '@mui/material/Button';
 import ModalEnemigoIntimo from './ModalEnemigoIntimo';
-import ModalPrueba from './ModalPrueba';
+import MadreExito from './MadreExito';
+import ModalLaHerida from './ModalLaHerida';
+import LaMadreLaAbundancia from './LaMadreLaAbundancia';
 
 
 const backdrop = {
@@ -16,7 +18,7 @@ const modal = {
         opacity: 0
     },
     visible: {
-        y: "100px",
+        y: "140px",
         opacity: 1,
         transition: {delay: 0.5}
     }
@@ -31,9 +33,14 @@ const handleClick = (e, setShowModal) => {
     setShowModal(false);
 };
 
+
+
 var components = {
     "ModalEnemigoIntimo": ModalEnemigoIntimo,
-    "ModalPrueba": ModalPrueba
+    "ModalLaHerida": ModalLaHerida,
+    "MadreExito": MadreExito,
+    "LaMadreLaAbundancia": LaMadreLaAbundancia,
+
   };
   
 
@@ -53,9 +60,8 @@ const Modal = ({ textModal, showModal, setShowModal }) => {
                     <motion.div className='modal'
                      variants={modal} 
                      >
-                    
                     <Component />
-                        {/* <p style={{paddingBottom: '30px'}}>{textModal}</p> */}
+                    {/* <p style={{paddingBottom: '30px'}}>{textModal}</p> */}
                      
                      {/*   <Button onClick={()=> setShowModal(false)} className='button' variant="outlined" style={{color: "black"}}>Exit</Button> */}
                     </motion.div>

@@ -58,13 +58,14 @@
   height: 100%;
 }
 
+
 .nav-links:hover {
-  border-bottom: 4px solid #000;
+  border-bottom: 2px solid #588290;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #000;
+  color: #588290;
 }
 
 .nav-links-mobile {
