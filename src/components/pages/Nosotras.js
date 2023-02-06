@@ -17,7 +17,7 @@ function Nosotras() {
       <div className="nosotras">
         <div className="nosotras-content">
           <img
-            src={Gabi}
+            src={Gabi} className="nosotrasImg"
             style={{ height: 'auto', width: '100%', maxWidth: '450px', margin:'0 auto', paddingTop: '20px' }}
             alt="Gabriela Arias Uriburu"
           ></img>
@@ -44,7 +44,7 @@ function Nosotras() {
 
         <div className="nosotras-content">
         <img src={PAU} alt="Pau" className="nosotrasImg" 
-        style={{ height: 'auto', width: '100%', maxWidth: '450px', margin:'0 0 0 4rem', paddingTop: '20px' }}>
+        style={{ height: 'auto', width: '100%', maxWidth: '450px', margin:'0 0 0 4rem', paddingTop: '20px'}}>
 
         </img>
           <div className="nosotras-col2">
