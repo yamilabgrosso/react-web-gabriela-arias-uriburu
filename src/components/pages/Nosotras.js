@@ -43,7 +43,7 @@ function Nosotras() {
         </div>
 
         <div className="nosotras-content">
-        <img src={PAU} alt="Pau" 
+        <img src={PAU} alt="Pau" className="nosotrasImg" 
         style={{ height: 'auto', width: '100%', maxWidth: '450px', margin:'0 0 0 4rem', paddingTop: '20px' }}>
 
         </img>

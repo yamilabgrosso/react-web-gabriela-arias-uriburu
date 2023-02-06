@@ -32,34 +32,34 @@
         "imagen": "images/talleres-madre-pareja.jpg",
         "nombre": "LA MADRE - LA PAREJA",
         "texto": "La pareja es el espacio de mayor intimidad de nuestras vidas y la primera relación de amor la vivimos con mamá, es con ella que aprendemos a amar.",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalMadrePareja"
     },
     {
         "id": 6,
         "imagen": "images/talleres-la-pareja.jpg",
         "nombre": "TALLER LA PAREJA",
         "texto": "La Pareja es el espacio de mayor desafío de nuestras vidas, nos invita a crear un sistema propio, dándole lugar a la intimidad. Es en la pareja donde reúno lo distinto a mí.",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalLaPareja"
     },
     {
         "id": 7,
         "imagen": "images/talleres-madre-vida.jpg",
         "nombre": "LA MADRE - LA VIDA",
         "texto": "Recobrar mi lugar, respetar y aceptar a mamá exactamente como es, es el desafío que te proponemos en este taller.",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalMadreVida"
     },
     {
         "id": 8,
         "imagen": "images/talleres-papa-mama.jpg",
         "nombre": "TALLER PAPÁ - MAMÁ",
         "texto": "Somos la reunión de dos distintos, Mamá y Papá, es a través de ellos que tomamos la vida.",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalPapaMama"
     },
     {
         "id": 9,
         "imagen": "images/talleres-patito-feo.jpg",
         "nombre": "TALLER PATITO FEO",
         "texto": "Lorem Ipsum.",
-        "textoModal": "INFO MODAL..."
+        "textoModal": "ModalPatitoFeo"
     }
 ]

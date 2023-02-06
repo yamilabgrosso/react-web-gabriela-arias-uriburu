@@ -183,14 +183,14 @@ text-align: center;
   .nosotras-col{
     padding-top: 2rem;
     margin: 0 auto;
-    width: 100%;
+    width: 90vw;
   }
 
   
   .nosotras-col2{
     padding-top: 2rem;
     margin: 0 auto;
-    width: 100%;
+    width: 90vw;
   }
 
   .container {
@@ -236,6 +236,10 @@ text-align: center;
 .p-info{
   text-align: center!important;
   font-size: 14px!important;
+}
+
+.nosotrasImg{
+  margin: 0
 }
 }
 

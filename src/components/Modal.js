@@ -5,6 +5,11 @@ import ModalEnemigoIntimo from './ModalEnemigoIntimo';
 import MadreExito from './MadreExito';
 import ModalLaHerida from './ModalLaHerida';
 import LaMadreLaAbundancia from './LaMadreLaAbundancia';
+import ModalMadrePareja from './ModalMadrePareja';
+import ModalLaPareja from './ModalLaPareja';
+import ModalMadreVida from './ModalMadreVida';
+import ModalPapaMama from './ModalPapaMama';
+import ModalPatitoFeo from './ModalPatitoFeo';
 
 
 const backdrop = {
@@ -18,7 +23,7 @@ const modal = {
         opacity: 0
     },
     visible: {
-        y: "140px",
+        y: "100px",
         opacity: 1,
         transition: {delay: 0.5}
     }
@@ -40,6 +45,11 @@ var components = {
     "ModalLaHerida": ModalLaHerida,
     "MadreExito": MadreExito,
     "LaMadreLaAbundancia": LaMadreLaAbundancia,
+    "ModalMadrePareja": ModalMadrePareja,
+    "ModalLaPareja": ModalLaPareja,
+    "ModalMadreVida": ModalMadreVida,
+    "ModalPapaMama": ModalPapaMama,
+    "ModalPatitoFeo": ModalPatitoFeo
 
   };
   
