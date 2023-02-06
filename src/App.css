@@ -237,7 +237,7 @@ text-align: center;
 
   .modal{
     margin: 0.5rem auto!important;
-   /*  height: 800px; */
+    height: 800px
   }
   
 .modal p {
