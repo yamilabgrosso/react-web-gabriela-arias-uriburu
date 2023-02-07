@@ -4,6 +4,7 @@ import "../../App.css";
 import Gabi from "../images/Gabi.jpg";
 import PAU from "../images/PAU.jpg";
 
+
 function Nosotras() {
   return (
     <>
