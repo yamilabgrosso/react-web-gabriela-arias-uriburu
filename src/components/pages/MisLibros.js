@@ -25,13 +25,14 @@ function MisLibros() {
             <div className='cards__wrapper'>
             <ul className='cards__items' >
             { 
-                items.map(({ id, imagen, titulo, texto, path, textoBoton }) => (
+                items.map(({ id, imagen, titulo, texto, path, textoModal, textoBoton }) => (
                 <CardItemLibros
                 key={id}
                 imagen={imagen}
                 titulo={titulo}
                 texto={texto}
                 path={path}
+                textoModal={textoModal}
                 textoBoton={textoBoton}
                 >
                 </CardItemLibros>

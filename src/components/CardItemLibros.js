@@ -1,14 +1,26 @@
 import React from 'react';
+import { useState } from 'react';
 import { Button } from './Button';
+import Modal from './Modal';
+import { Link } from 'react-router-dom';
+
 
 function CardItemLibros(props) {
+
+  const [showModal, setShowModal] = useState(false);
+
+  const onHandleClick = () => {
+    setShowModal(true)
+  }
 
 
   return (
     <>
-      <li className='cards__item'>
+     <Modal textModal={props.textoModal} showModal={showModal} setShowModal={setShowModal}></Modal>
+
+      <li className='cards__item' onClick={() => onHandleClick()}>
         
-        <a className='cards__item__link' href={props.path} target="_blank" rel="noreferrer" >
+        <Link className='cards__item__link'>
           <figure className='cards__item__pic-wrap'>
             <img
               className='cards__item__img'
@@ -22,7 +34,7 @@ function CardItemLibros(props) {
             <Button className="btn--primary">{props.textoBoton}</Button>
           </div>
 
-        </a>
+        </Link>
      
       </li>
     </>

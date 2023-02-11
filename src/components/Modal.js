@@ -10,6 +10,11 @@ import ModalLaPareja from './ModalLaPareja';
 import ModalMadreVida from './ModalMadreVida';
 import ModalPapaMama from './ModalPapaMama';
 import ModalPatitoFeo from './ModalPatitoFeo';
+import ModalSalvajeDomesticada from './modales-libros/ModalSalvajeDomesticada'
+import ModalEnemigoIntimoLibro from './modales-libros/ModalEnemigoIntimoLibro';
+import ModalDespuesDeTodo from './modales-libros/ModalDespuesDeTodo';
+import ModalEncuentroCorazon from './modales-libros/ModalEncuentroCorazon';
+import ModalVinculos from './modales-libros/ModalVinculos';
 
 
 const backdrop = {
@@ -49,8 +54,12 @@ var components = {
     "ModalLaPareja": ModalLaPareja,
     "ModalMadreVida": ModalMadreVida,
     "ModalPapaMama": ModalPapaMama,
-    "ModalPatitoFeo": ModalPatitoFeo
-
+    "ModalPatitoFeo": ModalPatitoFeo,
+    "ModalSalvajeDomesticada": ModalSalvajeDomesticada,
+    "ModalEnemigoIntimoLibro": ModalEnemigoIntimoLibro,
+    "ModalDespuesDeTodo": ModalDespuesDeTodo,
+    "ModalEncuentroCorazon": ModalEncuentroCorazon,
+    "ModalVinculos": ModalVinculos
   };
   
 

@@ -9,7 +9,7 @@ function CardItemHome(props) {
     <>
       <li className='cards__item'>
         
-        <Link className='cards__item__link' to={props.path}>
+        <a className='cards__item__link' href={props.path} target="_blank" rel="noreferrer">
           <figure className='cards__item__pic-wrap'>
             <img
               className='cards__item__img'
@@ -23,7 +23,7 @@ function CardItemHome(props) {
             <Button className="btn--primary">{props.textoBoton}</Button>
           </div>
 
-        </Link>
+        </a>
      
       </li>
     </>

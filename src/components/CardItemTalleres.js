@@ -14,7 +14,7 @@ function CardItemTalleres(props) {
 
 
   return (
-    <>
+    <> 
   
     <Modal textModal={props.textoModal} showModal={showModal} setShowModal={setShowModal}></Modal>
 

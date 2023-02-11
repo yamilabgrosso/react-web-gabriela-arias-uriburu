@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imagen": "images/img-1.jpg",
+        "imagen": "images/img-libros-1.jpg",
         "titulo": "Talleres",
         "texto": "Un viaje al encuentro de tu esencia con herramientas propias para dejar de ser víctima y convertirte en protagonista de tu vida.",
         "path": "/talleres",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "imagen": "images/img-3.jpg",
+        "imagen": "images/implacables.png",
         "titulo": "Prensa",
         "texto": "En esta sección encontrarás algunos momentos compartidos en distintos medios de comunicación.",
         "path": "/prensa",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "imagen": "images/img-4.jpg",
+        "imagen": "images/seccionnosotras.jpg",
         "titulo": "Sobre Nosotras",
         "texto": "Nuestro espíritu y corazón. Te invitamos a conocernos.",
         "path": "/nosotras",
@@ -34,10 +34,26 @@
 
     {
         "id": 5,
-        "imagen": "images/img-5.jpg",
+        "imagen": "images/ComunidadKlouser.jpg",
         "titulo": "Comunidad Klouser",
         "texto": "Te invitamos a ser parte de nuestra comunidad exclusiva.",
-        "path": "/nosotras",
+        "path": "https://klouser.app/group/gabriela-arias-uriburu",
+        "textoBoton": "Ver más"
+    },
+    {
+        "id": 6,
+        "imagen": "images/spotify.jpg",
+        "titulo": "Spotify",
+        "texto": "Te invito a escuchar todos los episodios en mi canal de Spotify.",
+        "path": "https://open.spotify.com/show/17PJ3bCKfOJni8Y6nYqIPV",
+        "textoBoton": "Ver más"
+    },
+    {
+        "id": 7,
+        "imagen": "images/canalyoutube.png",
+        "titulo": "Youtube",
+        "texto": "Suscribite a mi canal, para ver material exclusivo de mis vivos y mucho más.",
+        "path": "https://open.spotify.com/show/17PJ3bCKfOJni8Y6nYqIPV",
         "textoBoton": "Ver más"
     }
 ]

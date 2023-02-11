@@ -74,13 +74,14 @@ function Navbar() {
               </Link>
               </li>
               <li className='nav-item'>
-              <Link
-                to='/comunidad'
+              <a
+                href='https://klouser.app/group/gabriela-arias-uriburu' 
+                target='blank'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Comunidad
-              </Link>
+              </a>
             </li>
       
           </ul>
