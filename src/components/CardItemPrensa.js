@@ -19,9 +19,7 @@ function CardItemPrensa(props) {
             <h2 className='cards__item__title'>{props.titulo}</h2>
             <Button className="btn--primary">{props.textoBoton}</Button>
           </div>
-
         </a>
-     
       </li>
     </>
   );
