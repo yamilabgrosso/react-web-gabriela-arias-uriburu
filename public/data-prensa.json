@@ -3,50 +3,58 @@
         "id": 1,
         "imagen": "images/LAM.jpg",
         "titulo": "Entrevista en LAM",
-        "path": "https://www.youtube.com/watch?v=0QIhkNt64_c&ab_channel=GabrielaAriasUriburu",
+        "path": "https://www.youtube.com/embed/0QIhkNt64_c",
+        "ytb": true,
         "textoBoton": "Ver"
     },
     {
         "id": 2,
         "imagen": "images/implacables.png",
         "titulo": "Entrevista en Implacables",
-        "path": "https://www.youtube.com/watch?v=Fbk868QUDEA",
+        "path": "https://www.youtube.com/embed/Fbk868QUDEA",
+        "ytb": true,
         "textoBoton": "Ver"
     },
     {
         "id": 3,
-        "imagen": "images/HOLA.jpg",
-        "titulo": "Revista Hola",
-        "path": "https://www.lanacion.com.ar/revista-hola/nos-abre-su-album-privado-gabriela-arias-uriburu-su-incansable-lucha-y-un-sueno-que-la-desvela-con-nid22072022/",
-        "textoBoton": "Ver más"
-    },
-    {
-        "id": 4,
         "imagen": "images/manianas-nuestras.jpg",
         "titulo": "Mañanas Nuestras",
-        "path": "https://www.youtube.com/watch?v=4gdFZtVJ-iQ&ab_channel=MomentosTrillizasdeOro",
+        "path": "https://www.youtube.com/embed/4gdFZtVJ-iQ",
+        "ytb": true,
         "textoBoton": "Ver más"
     },
 
     {
-        "id": 5,
+        "id": 4,
         "imagen": "images/animales-sueltos.jpg",
         "titulo": "Animales Sueltos",
-        "path": "https://www.youtube.com/watch?v=gjccKZSBJqI",
+        "path": "https://www.youtube.com/embed/gjccKZSBJqI",
+        "ytb": true,
+        "textoBoton": "Ver más"
+    },
+    {
+        "id": 5,
+        "imagen": "images/protagonistas.jpg",
+        "titulo": "Protagonistas",
+        "path": "https://www.youtube.com/embed/WZHvgOalOSM",
+        "ytb": true,
         "textoBoton": "Ver más"
     },
     {
         "id": 6,
-        "imagen": "images/protagonistas.jpg",
-        "titulo": "Protagonistas",
-        "path": "https://www.youtube.com/watch?v=WZHvgOalOSM",
+        "imagen": "images/puravida.jpg",
+        "titulo": "Pura vida, cada día",
+        "path": "https://www.youtube.com/embed/VsR3bcgmra4",
+        "ytb": true,
         "textoBoton": "Ver más"
     },
     {
         "id": 7,
-        "imagen": "images/puravida.jpg",
-        "titulo": "Pura vida, cada día",
-        "path": "https://www.youtube.com/watch?v=VsR3bcgmra4",
+        "imagen": "images/HOLA.jpg",
+        "titulo": "Revista Hola",
+        "subtitulo": "Nota periodística",
+        "path": "https://www.lanacion.com.ar/revista-hola/nos-abre-su-album-privado-gabriela-arias-uriburu-su-incansable-lucha-y-un-sueno-que-la-desvela-con-nid22072022/",
+        "ytb": false,
         "textoBoton": "Ver más"
     }
 ]

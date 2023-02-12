@@ -178,11 +178,16 @@ text-align: center;
   padding: 1rem;
 }
 
-
-
+.video{
+  width: 400px;
+}
 
 @media screen and (max-device-width: 599px), screen and (max-width: 599px) {
 		  
+
+  .video{
+    width: 300px;
+  }
   .nosotras {
     display: flex;
     flex-direction: column;
@@ -270,6 +275,7 @@ text-align: center;
 h2 {
   padding-bottom: 20px;
 }
+
 }
 
 .backdrop {

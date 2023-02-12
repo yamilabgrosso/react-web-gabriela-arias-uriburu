@@ -21,9 +21,7 @@ function CardItemHome(props) {
             <h5 className='cards__item__text'>{props.texto}</h5>
             <Button className="btn--primary">{props.textoBoton}</Button>
           </div>
-
         </a>
-     
       </li>
     </>
   );

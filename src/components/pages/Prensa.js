@@ -24,13 +24,14 @@ function Prensa() {
             <div className='cards__wrapper'>
             <ul className='cards__items' >
             { 
-                items.map(({ id, imagen, titulo, path, textoBoton }) => (
+                items.map(({ id, imagen, titulo, path, textoBoton, ytb, subtitulo }) => (
                 <CardItemPrensa
                 key={id}
                 imagen={imagen}
                 titulo={titulo}
-
+                subtitulo={subtitulo}
                 path={path}
+                ytb={ytb}
                 textoBoton={textoBoton}
                 >
                 </CardItemPrensa>
