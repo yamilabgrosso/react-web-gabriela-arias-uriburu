@@ -20,8 +20,6 @@ h1 {
 
 }
 
-
-
 .cards__wrapper {
   position: relative;
   margin: 20px 0 45px;
@@ -110,7 +108,8 @@ h1 {
   height: auto;
   font-size: 14px;
   font-weight: 300;
-  text-align: center;
+  text-align: justify;
+  hyphens: auto;
   line-height: 22px;
 }
 

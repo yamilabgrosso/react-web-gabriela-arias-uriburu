@@ -10,7 +10,7 @@ function Nosotras() {
     <>
       <div className="gabriela-intro">
         <h1 style={{ color: "#c38820" }}>Nosotras</h1>
-        <h2>
+        <h2 style={{paddingBottom: '25px'}}>
           Te invitamos a conocer un poco de nuestra hisotoria.<br></br> Quiénes somos y
           de dónde venimos.
         </h2>
@@ -22,8 +22,8 @@ function Nosotras() {
             style={{ height: 'auto', width: '100%', maxWidth: '450px', margin:'0 auto', paddingTop: '20px' }}
             alt="Gabriela Arias Uriburu"
           ></img>
-          <div className="nosotras-col">
-            “Todos podemos hacer posible la vida, si estás vivo, se puede”
+          <div  lang="en" className="nosotras-col" style={{  hyphens: 'auto'}}>
+            “Todos podemos hacer posible la vida, si estás vivo, se puede”.
             <br></br>
             Gabriela Arias Uriburu es una referente mundial en Derechos Humanos,
             embajadora de paz, escritora, comunicadora y facilitadora
@@ -48,7 +48,7 @@ function Nosotras() {
         style={{ height: 'auto', width: '100%', maxWidth: '450px', margin:'0 0 0 4rem', paddingTop: '20px'}}>
 
         </img>
-          <div className="nosotras-col2">
+          <div  lang="en" className="nosotras-col2" style={{  hyphens: 'auto'}}>
            
             “Para que suceda una transformación personal, se necesita una
             transformación corporal. Somos una unidad” Los comienzos de su vida

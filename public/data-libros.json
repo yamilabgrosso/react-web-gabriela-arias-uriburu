@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imagen": "images/img-1.jpg",
+        "imagen": "images/img-1.png",
         "titulo": "Salvaje o Domesticada",
         "texto": "Se trata de un libro hecho para mirar nuestra herida, entenderla y sanarla.",
         "path": "https://www.kier.com.ar/Papel/9789501760361/Salvaje+O+Domesticada",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "imagen": "images/img-2.jpg",
+        "imagen": "images/img-2.png",
         "titulo": "Enemigo Íntimo",
         "texto": "Qué está sucediendo en nuestro interior que nos lleva a conectarnos con esa persona que nos consume, nos limita, nos depreda: Nuestro 'Enemigo intimo'.",
         "path": "https://www.kier.com.ar/Papel/9789501729986/Enemigo+Intimo",
