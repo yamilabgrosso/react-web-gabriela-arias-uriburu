@@ -18,38 +18,42 @@ function Footer() {
           <h3 className='website-rights'>email...</h3>
  
           <div className='social-icons'>
-            <Link
+            <a
               className='social-icon-link facebook'
-              to='https://es-la.facebook.com/GabrielaAriasUriburuOficial/'
+              href='https://es-la.facebook.com/GabrielaAriasUriburuOficial/'
               target='_blank'
               aria-label='Facebook'
+              rel='noreferrer'
             >
               <i className='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link twitter'
-              to='https://twitter.com/ariasuriburu'
+              href='https://twitter.com/ariasuriburu'
               target='_blank'
               aria-label='Twitter'
+              rel='noreferrer'
             >
               <i className='fab fa-twitter' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link instagram'
-              to='https://www.instagram.com/gabrielaariasuriburu/?hl=es'
+              href='https://www.instagram.com/gabrielaariasuriburu/?hl=es'
               target='_blank'
               aria-label='Instagram'
+              rel='noreferrer'
             >
               <i className='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link youtube'
-              to='https://www.youtube.com/c/gabrielaariasuriburu'
+              href='https://www.youtube.com/c/gabrielaariasuriburu'
               target='_blank'
               aria-label='Youtube'
+              rel='noreferrer'
             >
               <i className='fab fa-youtube' />
-            </Link>
+            </a>
          
      
           </div>
