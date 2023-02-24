@@ -11,7 +11,7 @@ function Nosotras() {
       <div className="gabriela-intro">
         <h1 style={{ color: "#c38820" }}>Nosotras</h1>
         <h2 style={{paddingBottom: '25px'}}>
-          Te invitamos a conocer un poco de nuestra hisotoria.<br></br> Quiénes somos y
+          Te invitamos a conocer un poco de nuestra historia.<br></br> Quiénes somos y
           de dónde venimos.
         </h2>
       </div>
