@@ -14,7 +14,6 @@ function ModalEnemigoIntimo() {
 
   ¿Estás dispuesta a tomar tu energía vital, tu poder? 
   ¿Estás dispuesta a dejar que muera esa vida donde te estaban o estás depredando y hacer lo que tenes que hacer? 
-  <br></br>
   No se trata de una lucha contra nadie sino de comprender quienes somos, cuál es nuestro valor, cuáles son las cosas que nos importan y de no dejar que ni el depredador interior ni nadie nos convenza de lo contrario” 
   En este taller te vas a dar vida y vas a saber cómo lograr la resiliencia.
   </p>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../Button';
 import Footer from '../Footer';
 import '../ImgSection.css';
 import encuentros from '../images/encuentros.png'
@@ -16,7 +15,7 @@ function Encuentros() {
         <div>
         <h2>Viajes, eventos, conferencias y mucho más. Donde vos elijas, te proponemos que nos encontremos para potenciar nuestro ser interior,  y atravesar juntas las historias que nos definen.</h2>
         </div>
-        <Button href='https://wa.me/541125300610' target="_blank">Esperamos tu invitación</Button>
+        <a style={{ textDecoration: 'none'}} className='btn btn--primary btn--medium' href='https://wa.me/541125300610' target="_blank" rel='noreferrer'>Esperamos tu invitación</a>
     </div>
           <Footer />
           </>
