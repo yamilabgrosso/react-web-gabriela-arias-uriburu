@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import './Button.css'
+import '../Button.css'
 
 
 
@@ -24,7 +24,7 @@ function ModalEnemigoIntimo() {
       <div className='infoModal'>
         <p className='p-info'>
       Son 5 encuentros vía Zoom de 3hs. y 30 mins. cada uno. <br></br>Además contarás con un grupo de Whatsapp de apoyo</p>
-      <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0}}>Inscribirse</Button>
+      <Button href='https://wa.me/541125300610' target="_blank" style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0}}>Inscribirse</Button>
       </div>
     </div>
     </>

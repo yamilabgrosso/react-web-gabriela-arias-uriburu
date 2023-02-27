@@ -1,15 +1,16 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 //import Button from '@mui/material/Button';
-import ModalEnemigoIntimo from './ModalEnemigoIntimo';
-import MadreExito from './MadreExito';
-import ModalLaHerida from './ModalLaHerida';
-import LaMadreLaAbundancia from './LaMadreLaAbundancia';
-import ModalMadrePareja from './ModalMadrePareja';
-import ModalLaPareja from './ModalLaPareja';
-import ModalMadreVida from './ModalMadreVida';
-import ModalPapaMama from './ModalPapaMama';
-import ModalPatitoFeo from './ModalPatitoFeo';
+import ModalEnemigoIntimo from './modales-talleres/ModalEnemigoIntimo';
+import MadreExito from './modales-talleres/MadreExito';
+import ModalLaHerida from './modales-talleres/ModalLaHerida';
+import LaMadreLaAbundancia from './modales-talleres/LaMadreLaAbundancia';
+import ModalMadrePareja from './modales-talleres/ModalMadrePareja';
+import ModalLaPareja from './modales-talleres/ModalLaPareja';
+import ModalMadreVida from './modales-talleres/ModalMadreVida';
+import ModalPapaMama from './modales-talleres/ModalPapaMama';
+import ModalPatitoFeo from './modales-talleres/ModalPatitoFeo';
+import ModalTallerVinculos from './modales-talleres/ModalTallerVinculos';
 import ModalSalvajeDomesticada from './modales-libros/ModalSalvajeDomesticada'
 import ModalEnemigoIntimoLibro from './modales-libros/ModalEnemigoIntimoLibro';
 import ModalDespuesDeTodo from './modales-libros/ModalDespuesDeTodo';
@@ -55,6 +56,7 @@ var components = {
     "ModalMadreVida": ModalMadreVida,
     "ModalPapaMama": ModalPapaMama,
     "ModalPatitoFeo": ModalPatitoFeo,
+    "ModalTallerVinculos": ModalTallerVinculos,
     "ModalSalvajeDomesticada": ModalSalvajeDomesticada,
     "ModalEnemigoIntimoLibro": ModalEnemigoIntimoLibro,
     "ModalDespuesDeTodo": ModalDespuesDeTodo,

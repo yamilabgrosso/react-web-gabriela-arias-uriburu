@@ -23,43 +23,50 @@
     {
         "id": 4,
         "imagen": "images/talleres-madre-abundancia.jpg",
-        "nombre": "LA MADRE - LA ABUNDANCIA",
+        "nombre": "La Madre - La Abundancia",
         "texto": "El vínculo con la madre es vital porque ella es la primera que nos vincula con la vida, la abundancia y el amor (el amor en la pareja).",
         "textoModal": "LaMadreLaAbundancia"
     },
     {
         "id": 5,
         "imagen": "images/talleres-madre-pareja.jpg",
-        "nombre": "LA MADRE - LA PAREJA",
+        "nombre": "La Madre - La Pareja",
         "texto": "La pareja es el espacio de mayor intimidad de nuestras vidas y la primera relación de amor la vivimos con mamá, es con ella que aprendemos a amar.",
         "textoModal": "ModalMadrePareja"
     },
     {
         "id": 6,
         "imagen": "images/talleres-la-pareja.jpg",
-        "nombre": "TALLER LA PAREJA",
+        "nombre": "Taller La Pareja",
         "texto": "La Pareja es el espacio de mayor desafío de nuestras vidas, nos invita a crear un sistema propio, dándole lugar a la intimidad. Es en la pareja donde reúno lo distinto a mí.",
         "textoModal": "ModalLaPareja"
     },
     {
         "id": 7,
         "imagen": "images/talleres-madre-vida.jpg",
-        "nombre": "LA MADRE - LA VIDA",
+        "nombre": "La Madre - La Vida",
         "texto": "Recobrar mi lugar, respetar y aceptar a mamá exactamente como es, es el desafío que te proponemos en este taller.",
         "textoModal": "ModalMadreVida"
     },
     {
         "id": 8,
         "imagen": "images/talleres-papa-mama.jpg",
-        "nombre": "TALLER PAPÁ - MAMÁ",
+        "nombre": "Taller Papá - Mamá",
         "texto": "Somos la reunión de dos distintos, Mamá y Papá, es a través de ellos que tomamos la vida.",
         "textoModal": "ModalPapaMama"
     },
     {
         "id": 9,
         "imagen": "images/talleres-patito-feo.jpg",
-        "nombre": "TALLER PATITO FEO",
+        "nombre": "Taller Patito Feo",
         "texto": "Lorem Ipsum.",
         "textoModal": "ModalPatitoFeo"
+    },
+    {
+        "id": 9,
+        "imagen": "images/img-5.jpg",
+        "nombre": "Vínculos",
+        "texto": "Durante 9 encuentros entraremos a un laboratorio íntimo y personal donde investigaremos y reconoceremos el arte de los vínculos.",
+        "textoModal": "ModalTallerVinculos"
     }
 ]

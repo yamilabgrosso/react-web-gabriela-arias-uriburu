@@ -44,6 +44,11 @@
   transition: 0.3s ease-out;
 }
 
+.wsp{
+  padding-bottom: 0px;
+  padding-left: 70px;
+}
+
 
 /* Social Icons */
 .social-icon-link {
@@ -117,4 +122,15 @@
 }
 
 @media screen and (max-width: 768px) {
-}
+    .website-rights{
+      padding-top: 20px;
+    }
+    .wsp{
+      padding-bottom: 30px;
+      padding-top: 10px;
+      padding-left: 0!important;
+    }
+    .footer-container{
+      padding-top: 0.1rem;
+    }
+    }

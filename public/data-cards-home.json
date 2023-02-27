@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imagen": "images/img-libros-1.jpg",
+        "imagen": "images/talleres-patito-feo.jpg",
         "titulo": "Talleres",
         "texto": "Un viaje al encuentro de tu esencia con herramientas propias para dejar de ser víctima y convertirte en protagonista de tu vida.",
         "path": "/talleres",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "imagen": "images/img-2.jpg",
+        "imagen": "images/libros-home.png",
         "titulo": "Libros",
         "texto": "Un recorrido por mi bibliografía, para que juntas podamos seguir creciendo y sanando.",
         "path": "/mislibros",

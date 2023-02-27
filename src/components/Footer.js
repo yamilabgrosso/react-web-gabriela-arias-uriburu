@@ -15,7 +15,16 @@ function Footer() {
                 <img className="logo" src={logo} alt="logo gabriela arias uriburu" height="80px"></img>
             </Link>
           </div>
-          <h3 className='website-rights'>email...</h3>
+          <div className='social-icon-link wsp'>
+          <a 
+           style={{ fontSize: '30px'}} 
+          className='social-icon-link whatsapp'
+          href='https://wa.me/541125300610'
+          aria-label='Whatsapp'
+          target='_blank'
+          rel='noreferrer'
+         ><i class="fab fa-whatsapp" /></a>
+         </div>
  
           <div className='social-icons'>
             <a

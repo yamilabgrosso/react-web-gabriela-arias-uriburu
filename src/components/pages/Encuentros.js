@@ -16,7 +16,7 @@ function Encuentros() {
         <div>
         <h2>Viajes, eventos, conferencias y mucho más. Donde vos elijas, te proponemos que nos encontremos para potenciar nuestro ser interior,  y atravesar juntas las historias que nos definen.</h2>
         </div>
-        <Button>Esperamos tu invitación</Button>
+        <Button href='https://wa.me/541125300610' target="_blank">Esperamos tu invitación</Button>
     </div>
           <Footer />
           </>
