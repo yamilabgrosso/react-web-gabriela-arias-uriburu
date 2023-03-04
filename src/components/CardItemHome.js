@@ -8,7 +8,7 @@ function CardItemHome(props) {
     <>
       <li className='cards__item'>
         
-        <a className='cards__item__link' href={props.path} target="_blank" rel="noreferrer">
+        <a className='cards__item__link' href={props.path} >
           <figure className='cards__item__pic-wrap'>
             <img
               className='cards__item__img'
