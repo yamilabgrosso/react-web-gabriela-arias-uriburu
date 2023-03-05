@@ -23,7 +23,7 @@ function Footer() {
           aria-label='Whatsapp'
           target='_blank'
           rel='noreferrer'
-         ><i class="fab fa-whatsapp" /></a>
+         ><i className="fab fa-whatsapp" /></a>
          </div>
  
           <div className='social-icons'>

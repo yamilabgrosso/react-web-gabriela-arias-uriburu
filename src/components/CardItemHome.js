@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 function CardItemHome(props) {
 
@@ -8,7 +9,7 @@ function CardItemHome(props) {
     <>
       <li className='cards__item'>
         
-        <a className='cards__item__link' href={props.path} >
+        <Link className='cards__item__link' to={props.path} >
           <figure className='cards__item__pic-wrap'>
             <img
               className='cards__item__img'
@@ -21,7 +22,7 @@ function CardItemHome(props) {
             <h5 className='cards__item__text'>{props.texto}</h5>
             <Button className="btn--primary">{props.textoBoton}</Button>
           </div>
-        </a>
+        </Link>
       </li>
     </>
   );
