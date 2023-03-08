@@ -1,72 +1,75 @@
-[
-     {
+[   
+    
+    {
         "id": 1,
+        "imagen": "images/img-5.jpg",
+        "nombre": "Seminario Vínculos",
+        "texto": "Durante 9 encuentros entraremos a un laboratorio íntimo y personal donde investigaremos y reconoceremos el arte de los vínculos.",
+        "textoModal": "ModalTallerVinculos"
+    },
+     {
+        "id": 2,
         "imagen": "images/img-libros-1.jpg",
         "nombre": "Enemigo Intimo",
         "texto": "Todo lo que sucede te empuja, te lleva al encuentro con vos misma. Ya no hay que salvar a nadie, ni nadie viene a rescatarte",
         "textoModal": "ModalEnemigoIntimo"
     },
     {
-        "id": 2,
+        "id": 3,
+        "imagen": "images/talleres-patito-feo.jpg",
+        "nombre": "Taller Patito Feo",
+        "texto": "¿Te sentís exiliada, diferente, doliente, excluida o rechazada? Éste es tu Taller: “PATITO FEO“, LA LLEGADA DE LA NUEVA VIDA.",
+        "textoModal": "ModalPatitoFeo"
+    },
+    {
+        "id": 4,
         "imagen": "images/talleres-la-herida.jpg",
         "nombre": "La Herida",
-        "texto": "Al encuentro del corazón delata todo aquello que sucede en el interior de una mujer y de un hombre. Hay una finalidad y es llegar al corazón...",
+        "texto": "Estamos llamados a buscar lo herido, lo dañado, lo muerto, y así entregárselo a la vida para su resurrección.",
         "textoModal": "ModalLaHerida"
     },
     {
-        "id": 3,
+        "id": 5,
         "imagen": "images/talleres-madre-exito.jpg",
         "nombre": "La Madre - El Éxito",
         "texto": "Nuestro mayor éxito es nuestro nacimiento, ese es nuestro primer acto voluntario.",
         "textoModal": "MadreExito"
     },
     {
-        "id": 4,
+        "id": 6,
         "imagen": "images/talleres-madre-abundancia.jpg",
         "nombre": "La Madre - La Abundancia",
         "texto": "El vínculo con la madre es vital porque ella es la primera que nos vincula con la vida, la abundancia y el amor (el amor en la pareja).",
         "textoModal": "LaMadreLaAbundancia"
     },
     {
-        "id": 5,
+        "id": 7,
         "imagen": "images/talleres-madre-pareja.jpg",
         "nombre": "La Madre - La Pareja",
         "texto": "La pareja es el espacio de mayor intimidad de nuestras vidas y la primera relación de amor la vivimos con mamá, es con ella que aprendemos a amar.",
         "textoModal": "ModalMadrePareja"
     },
     {
-        "id": 6,
+        "id": 8,
         "imagen": "images/talleres-la-pareja.jpg",
         "nombre": "Taller La Pareja",
         "texto": "La Pareja es el espacio de mayor desafío de nuestras vidas, nos invita a crear un sistema propio, dándole lugar a la intimidad. Es en la pareja donde reúno lo distinto a mí.",
         "textoModal": "ModalLaPareja"
     },
     {
-        "id": 7,
+        "id": 9,
         "imagen": "images/talleres-madre-vida.jpg",
         "nombre": "La Madre - La Vida",
         "texto": "Recobrar mi lugar, respetar y aceptar a mamá exactamente como es, es el desafío que te proponemos en este taller.",
         "textoModal": "ModalMadreVida"
     },
     {
-        "id": 8,
+        "id": 10,
         "imagen": "images/talleres-papa-mama.jpg",
         "nombre": "Taller Papá - Mamá",
         "texto": "Somos la reunión de dos distintos, Mamá y Papá, es a través de ellos que tomamos la vida.",
         "textoModal": "ModalPapaMama"
-    },
-    {
-        "id": 9,
-        "imagen": "images/talleres-patito-feo.jpg",
-        "nombre": "Taller Patito Feo",
-        "texto": "Lorem Ipsum.",
-        "textoModal": "ModalPatitoFeo"
-    },
-    {
-        "id": 9,
-        "imagen": "images/img-5.jpg",
-        "nombre": "Vínculos",
-        "texto": "Durante 9 encuentros entraremos a un laboratorio íntimo y personal donde investigaremos y reconoceremos el arte de los vínculos.",
-        "textoModal": "ModalTallerVinculos"
     }
+   
+   
 ]

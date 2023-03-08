@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imagen": "images/talleres-patito-feo.jpg",
+        "imagen": "images/img-talleres-home.jpg",
         "titulo": "Talleres",
         "texto": "Un viaje al encuentro de tu esencia con herramientas propias para dejar de ser víctima y convertirte en protagonista de tu vida.",
         "path": "/talleres",

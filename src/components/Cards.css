@@ -171,5 +171,8 @@ h1 {
   .cards__item__title {
     margin: 0;
   }
+  .cards__container{
+    width: 90%;
+  }
 
 }
