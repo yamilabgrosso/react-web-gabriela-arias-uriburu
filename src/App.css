@@ -10,7 +10,7 @@
 body {
   background-color: #eef8fe;
   text-justify: inter-character;
-  
+
 }
 .home,
 
@@ -196,7 +196,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 400px;
+/*     min-width: 400px; */
   }
 
   .nosotras-col{
