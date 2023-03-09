@@ -6,15 +6,11 @@
   font-weight: 300;
 
 }
-html, body {
-  overflow: hidden;
-  height: 100%;
-  overflow: auto; 
-}
 
 body {
   background-color: #eef8fe;
-  text-justify: inter-character; 
+  text-justify: inter-character;
+  
 }
 .home,
 
