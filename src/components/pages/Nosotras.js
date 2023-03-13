@@ -22,7 +22,7 @@ function Nosotras() {
             style={{ height: 'auto', width: '100%', maxWidth: '450px', margin:'0 auto', paddingTop: '20px' }}
             alt="Gabriela Arias Uriburu"
           ></img>
-          <div  lang="en" className="nosotras-col" style={{  hyphens: 'auto'}}>
+          <div lang="en" className="nosotras-col" style={{  hyphens: 'auto'}}>
             “Todos podemos hacer posible la vida, si estás vivo, se puede”.
             <br></br>
             Gabriela Arias Uriburu es una referente mundial en Derechos Humanos,

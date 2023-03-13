@@ -23,48 +23,55 @@
     },
     {
         "id": 4,
+        "imagen": "images/img-3.jpg",
+        "nombre": "Al encuentro del corazón",
+        "texto": "Tener el valor de dejarte guiar por el corazón. Es otra vida. Es lo que siempre soñaste y quisiste.",
+        "textoModal": "ModalEncuentroCorazonTaller"
+    },
+    {
+        "id": 5,
         "imagen": "images/talleres-la-herida.jpg",
         "nombre": "La Herida",
         "texto": "Estamos llamados a buscar lo herido, lo dañado, lo muerto, y así entregárselo a la vida para su resurrección.",
         "textoModal": "ModalLaHerida"
     },
     {
-        "id": 5,
+        "id": 6,
         "imagen": "images/talleres-madre-exito.jpg",
         "nombre": "La Madre - El Éxito",
         "texto": "Nuestro mayor éxito es nuestro nacimiento, ese es nuestro primer acto voluntario.",
         "textoModal": "MadreExito"
     },
     {
-        "id": 6,
+        "id": 7,
         "imagen": "images/talleres-madre-abundancia.jpg",
         "nombre": "La Madre - La Abundancia",
         "texto": "El vínculo con la madre es vital porque ella es la primera que nos vincula con la vida, la abundancia y el amor (el amor en la pareja).",
         "textoModal": "LaMadreLaAbundancia"
     },
     {
-        "id": 7,
+        "id": 8,
         "imagen": "images/talleres-madre-pareja.jpg",
         "nombre": "La Madre - La Pareja",
         "texto": "La pareja es el espacio de mayor intimidad de nuestras vidas y la primera relación de amor la vivimos con mamá, es con ella que aprendemos a amar.",
         "textoModal": "ModalMadrePareja"
     },
     {
-        "id": 8,
+        "id": 9,
         "imagen": "images/talleres-la-pareja.jpg",
         "nombre": "Taller La Pareja",
         "texto": "La Pareja es el espacio de mayor desafío de nuestras vidas, nos invita a crear un sistema propio, dándole lugar a la intimidad. Es en la pareja donde reúno lo distinto a mí.",
         "textoModal": "ModalLaPareja"
     },
     {
-        "id": 9,
+        "id": 10,
         "imagen": "images/talleres-madre-vida.jpg",
         "nombre": "La Madre - La Vida",
         "texto": "Recobrar mi lugar, respetar y aceptar a mamá exactamente como es, es el desafío que te proponemos en este taller.",
         "textoModal": "ModalMadreVida"
     },
     {
-        "id": 10,
+        "id": 11,
         "imagen": "images/talleres-papa-mama.jpg",
         "nombre": "Taller Papá - Mamá",
         "texto": "Somos la reunión de dos distintos, Mamá y Papá, es a través de ellos que tomamos la vida.",

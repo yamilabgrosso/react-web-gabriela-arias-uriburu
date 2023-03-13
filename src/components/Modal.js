@@ -16,6 +16,7 @@ import ModalEnemigoIntimoLibro from './modales-libros/ModalEnemigoIntimoLibro';
 import ModalDespuesDeTodo from './modales-libros/ModalDespuesDeTodo';
 import ModalEncuentroCorazon from './modales-libros/ModalEncuentroCorazon';
 import ModalVinculos from './modales-libros/ModalVinculos';
+import ModalEncuentroCorazonTaller from './modales-talleres/ModalEncuentroCorazonTaller'
 
 
 const backdrop = {
@@ -61,7 +62,8 @@ var components = {
     "ModalEnemigoIntimoLibro": ModalEnemigoIntimoLibro,
     "ModalDespuesDeTodo": ModalDespuesDeTodo,
     "ModalEncuentroCorazon": ModalEncuentroCorazon,
-    "ModalVinculos": ModalVinculos
+    "ModalVinculos": ModalVinculos,
+    "ModalEncuentroCorazonTaller": ModalEncuentroCorazonTaller,
   };
   
 
