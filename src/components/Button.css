@@ -51,3 +51,10 @@
   color: #242424;
   transition: 250ms;
 }
+
+
+.close-button {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}

@@ -153,6 +153,22 @@ justify-content: center;
 text-align: center;
 }
 
+.modalHome {
+  max-width: 40vw;
+  max-height: 100vh;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 50%);
+  position: relative; /* Add this to make the modal's position relative to the container */
+  min-height: 150px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .modal p {
   color: #444;
   font-size: 14px;
@@ -290,7 +306,4 @@ h2 {
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
-
-
-
 

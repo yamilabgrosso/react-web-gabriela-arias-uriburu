@@ -1,6 +1,16 @@
 [
+
     {
         "id": 1,
+        "imagen": "images/vinculos2.jpg",
+        "titulo": "Vínculos II",
+        "texto": "Si estás vivo, se puede.",
+        "path": "https://www.kier.com.ar/Papel/9789501760644/V%C3%ADnculos+Ii+-+Preventa+-+Disponible+A+Partir+Del+24+De+Abril",
+        "textoModal": "ModalVinculos2",
+        "textoBoton": "Comprar"
+    },
+    {
+        "id": 2,
         "imagen": "images/img-1.png",
         "titulo": "Salvaje o Domesticada",
         "texto": "Se trata de un libro hecho para mirar nuestra herida, entenderla y sanarla.",
@@ -9,7 +19,7 @@
         "textoBoton": "Comprar"
     },
     {
-        "id": 2,
+        "id": 3,
         "imagen": "images/img-2.png",
         "titulo": "Enemigo Íntimo",
         "texto": "Qué está sucediendo en nuestro interior que nos lleva a conectarnos con esa persona que nos consume, nos limita, nos depreda: Nuestro 'Enemigo intimo'.",
@@ -18,7 +28,7 @@
         "textoBoton": "Comprar"
     },
     {
-        "id": 3,
+        "id": 4,
         "imagen": "images/corazon-libro.png",
         "titulo": "Al encuentro del corazón",
         "texto": "Este libro-taller se convierte en una herramienta que posee el extraordinario valor testimonial de su autora, camino donde es posible encontrarnos y sanar nuestros vínculos. ",
@@ -27,7 +37,7 @@
         "textoBoton": "Comprar"
     },
     {
-        "id": 4,
+        "id": 5,
         "imagen": "images/img-4.jpg",
         "titulo": "Después de todo",
         "texto": "El testimonio vivo de la historia de una familia desgarrada por la diferencia entre dos culturas. ",
@@ -37,7 +47,7 @@
     },
 
     {
-        "id": 5,
+        "id": 6,
         "imagen": "images/img-5.jpg",
         "titulo": "Vínculos",
         "texto": "Es una guía de superación para quienes buscan la armonía personal, la paz familiar y el amor incondicional.",

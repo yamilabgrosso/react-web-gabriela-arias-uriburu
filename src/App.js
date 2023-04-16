@@ -11,9 +11,7 @@ import MisLibros from './components/pages/MisLibros';
 import Nosotras from './components/pages/Nosotras';
 import Prensa from './components/pages/Prensa';
 
-
 function App() {
-
 
   return (
     <>
