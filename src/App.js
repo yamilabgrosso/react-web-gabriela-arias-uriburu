@@ -38,7 +38,7 @@ function App() {
           {showModal && (
             <div className="modal-wrapper">
               <div className="modal" style={{ position: "fixed", zIndex: 999 }}>
-              <button  className='btn--primary'
+              <button className='btn--primary'
                     style={{
                     cursor: 'pointer',
                     borderRadius: '10px',
