@@ -14,7 +14,7 @@ function ModalVinculos2() {
       </div>
       <div >
         <a href='https://www.kier.com.ar/Papel/9789501760644/V%C3%ADnculos+Ii+-+Preventa+-+Disponible+A+Partir+Del+24+De+Abril' target='blank' style={{textDecoration: 'none'}}>
-            <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0}}>Comprar</Button>
+        <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0}}>Comprar</Button>
       </a>
       </div>
     </div>
