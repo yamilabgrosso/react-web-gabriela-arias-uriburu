@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from './images/logo.png'
 
-function Navbar() {
+function Navbar(setShowModal) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+ 
   const closeMobileMenu = () => setClick(false);
 
 
