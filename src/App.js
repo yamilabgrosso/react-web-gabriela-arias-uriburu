@@ -52,7 +52,7 @@ function App() {
                 <img
                     style={{
                       width: '550px',
-                      maxWidth: '300px',
+                      maxWidth: '250px',
                       margin: '0 auto',
                       paddingBottom: '30px'
                     }} src={vinculos2} alt='Vinculos II'/>
