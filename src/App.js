@@ -47,7 +47,7 @@ function App() {
                     padding: '5px',
                     fontWeight:'bold',
                     width: '80px',
-                    margin: '0 0 0px 75%'
+                    margin: '0 0 0px 78%'
                   }} onClick={() => handleCloseModal()}>Cerrar</button> 
                 <img className='imgModalHome'
                     style={{
