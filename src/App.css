@@ -200,7 +200,13 @@ text-align: center;
 }
 
 @media screen and (max-device-width: 599px), screen and (max-width: 599px) {
-		  
+	.imgModalHome{
+    margin: 0!important;
+  }
+
+  .btnModalHome {
+    margin: 0px 0px 0px 65%!important;
+  }
 
   .video{
     width: 300px;

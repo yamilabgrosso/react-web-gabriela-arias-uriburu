@@ -37,8 +37,8 @@ function App() {
         <div>
           {showModal && (
             <div className="modal-wrapper">
-              <div className="modal" style={{ position: "fixed", zIndex: 999 }}>
-              <button className='btn--primary'
+              <div className="modal" style={{ position: "fixed", zIndex: 999, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+              <button className='btn--primary btnModalHome'
                     style={{
                     cursor: 'pointer',
                     borderRadius: '10px',
@@ -49,11 +49,12 @@ function App() {
                     width: '80px',
                     margin: '0 0 0px 75%'
                   }} onClick={() => handleCloseModal()}>Cerrar</button> 
-                <img
+                <img className='imgModalHome'
                     style={{
-                      width: '550px',
-                      maxWidth: '250px',
-                      margin: '0 auto',
+                      minWidth: '50px',
+                      maxWidth: '500px',
+                     paddingTop: '30px',
+                     margin: '0 auto',
                       paddingBottom: '30px'
                     }} src={vinculos2} alt='Vinculos II'/>
                 <a href='https://www.kier.com.ar/Papel/9789501760644/V%C3%ADnculos+Ii+-+Preventa+-+Disponible+A+Partir+Del+24+De+Abril' target='blank' style={{textDecoration: 'none'}}>
