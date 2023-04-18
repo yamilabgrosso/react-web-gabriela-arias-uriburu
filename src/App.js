@@ -21,6 +21,7 @@ function App() {
     useEffect(() => {
       setShowModal(true);
       document.body.classList.add('modal-background'); // Agregar la clase modal-background al body
+      
       return () => {
         document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
       };
@@ -30,8 +31,6 @@ function App() {
       document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
       setShowModal(false);
     };
-  
-  
 
   return (
     <>
@@ -48,7 +47,7 @@ function App() {
                     padding: '5px',
                     fontWeight:'bold',
                     width: '80px',
-                    margin: '0 0 0px 80%'
+                    margin: '0 0 0px 75%'
                   }} onClick={() => handleCloseModal()}>Cerrar</button> 
                 <img
                     style={{
