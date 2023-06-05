@@ -19,7 +19,7 @@ function App() {
     
   
     useEffect(() => {
-      setShowModal(true);
+      setShowModal(false);
       document.body.classList.add('modal-background'); // Agregar la clase modal-background al body
       
       return () => {
