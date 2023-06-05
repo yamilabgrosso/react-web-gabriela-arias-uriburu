@@ -20,11 +20,11 @@ function App() {
   
     useEffect(() => {
       setShowModal(false);
-      document.body.classList.add('modal-background'); // Agregar la clase modal-background al body
+      // document.body.classList.add('modal-background'); // Agregar la clase modal-background al body
       
-      return () => {
-        document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
-      };
+      // return () => {
+      //   document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
+      // };
     }, []);
   
     const handleCloseModal = () => {
