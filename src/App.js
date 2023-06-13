@@ -10,71 +10,77 @@ import Encuentros from './components/pages/Encuentros';
 import MisLibros from './components/pages/MisLibros';
 import Nosotras from './components/pages/Nosotras';
 import Prensa from './components/pages/Prensa';
-import vinculos2 from './components/images/vinculos2modal.jpg'
+// import vinculos2 from './components/images/vinculos2modal.jpg'
 import { Button } from '@mui/material';
+import videoHome from './components/images/home.mp4'
+
 
 function App() {
 
-    const [showModal, setShowModal] = useState(false);
-    
-  
-    useEffect(() => {
-      setShowModal(false);
-      // document.body.classList.add('modal-background'); // Agregar la clase modal-background al body
-      
-      // return () => {
-      //   document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
-      // };
-    }, []);
-  
-    const handleCloseModal = () => {
+  const [showModal, setShowModal] = useState(false);
+
+
+  useEffect(() => {
+    setShowModal(true);
+    document.body.classList.add('modal-background'); // Agregar la clase modal-background al body
+
+    return () => {
       document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
-      setShowModal(false);
     };
+  }, []);
+
+  const handleCloseModal = () => {
+    document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
+    setShowModal(false);
+  };
 
   return (
     <>
-        <div>
-          {showModal && (
-            <div className="modal-wrapper">
-              <div className="modal" style={{ position: "fixed", zIndex: 999, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+      <div>
+        {showModal && (
+          <div className="modal-wrapper">
+            <div className="modal" style={{ position: "fixed", zIndex: 999, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
               <button className='btn--primary btnModalHome'
-                    style={{
-                    cursor: 'pointer',
-                    borderRadius: '10px',
-                    backgroundColor: '#588290',
-                    color: 'fff',
-                    padding: '5px',
-                    fontWeight:'bold',
-                    width: '80px',
-                    margin: '0 0 0px 78%'
-                  }} onClick={() => handleCloseModal()}>Cerrar</button> 
-                <img className='imgModalHome'
+                style={{
+                  cursor: 'pointer',
+                  borderRadius: '10px',
+                  backgroundColor: '#588290',
+                  color: 'fff',
+                  padding: '5px',
+                  fontWeight: 'bold',
+                  width: '80px',
+                  margin: '0 0 0px 78%'
+                }} onClick={() => handleCloseModal()}>Cerrar</button>
+              {/* <img className='imgModalHome'
                     style={{
                       minWidth: '50px',
                       maxWidth: '500px',
                      paddingTop: '30px',
                      margin: '0 auto',
                       paddingBottom: '30px'
-                    }} src={vinculos2} alt='Vinculos II'/>
-                <a href='https://www.kier.com.ar/Papel/9789501760644/V%C3%ADnculos+Ii+-+Preventa+-+Disponible+A+Partir+Del+24+De+Abril' target='blank' style={{textDecoration: 'none'}}>
-                    <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0}}>Comprar</Button>
-                    </a>
-              </div>
+                    }} src={vinculos2} alt='Vinculos II'/> */}
+              <video className='videoModalHome' width="80%" height="300px" autoplay="autoplay" muted loop controls>
+                <source src={videoHome} type="video/mp4"></source>
+                Tu navegador no admite el elemento de video.
+              </video>
+              <a href='https://www.kier.com.ar/Papel/9789501760644/Vinculos+Ii' target='blank' style={{ textDecoration: 'none' }}>
+                <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }}>Comprar</Button>
+              </a>
             </div>
-          )}
-        </div>
+          </div>
+        )}
+      </div>
       <Router >
         <Navbar />
-          <Routes>
-            <Route path='/' exact element={<Home />} />
-            <Route path='/talleres' element={<Talleres />} />    
-            <Route path='/encuentros' element={<Encuentros />}/>    
-            <Route path='/mislibros' element={<MisLibros />}/>      
-            <Route path='/nosotras' element={<Nosotras />} />
-            <Route path='/prensa' element={<Prensa />} />
-          </Routes>
-        </Router>
+        <Routes>
+          <Route path='/' exact element={<Home />} />
+          <Route path='/talleres' element={<Talleres />} />
+          <Route path='/encuentros' element={<Encuentros />} />
+          <Route path='/mislibros' element={<MisLibros />} />
+          <Route path='/nosotras' element={<Nosotras />} />
+          <Route path='/prensa' element={<Prensa />} />
+        </Routes>
+      </Router>
 
     </>
   );
