@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import { React, useState, useEffect} from 'react';
 import './App.css';
 // React Router 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -12,27 +12,55 @@ import Nosotras from './components/pages/Nosotras';
 import Prensa from './components/pages/Prensa';
 // import vinculos2 from './components/images/vinculos2modal.jpg'
 import { Button } from '@mui/material';
-import videoHome from './components/images/home.mp4'
+// import videoHome from './components/images/home.mp4'
+import constelaciones from './components/images/constelaciones.jpeg'
+import videoConstelaciones from './components/images/video-constelaciones.mp4'
 
 
 function App() {
-
   const [showModal, setShowModal] = useState(false);
+  const [showSecondModal, setShowSecondModal] = useState(false);
 
 
   useEffect(() => {
     setShowModal(true);
-    document.body.classList.add('modal-background'); // Agregar la clase modal-background al body
+    document.body.classList.add('modal-background');
 
     return () => {
-      document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
+      document.body.classList.remove('modal-background');
+    };
+  }, []);
+
+  useEffect(() => {
+  
+    const handleEscapeKey = (event) => {
+      if (event.key === 'Escape') {
+        handleCloseModal();
+        handleCloseSecondModal();
+      }
+    };
+  
+    document.addEventListener('keydown', handleEscapeKey);
+  
+    return () => {
+      document.removeEventListener('keydown', handleEscapeKey);
     };
   }, []);
 
   const handleCloseModal = () => {
-    document.body.classList.remove('modal-background'); // Eliminar la clase modal-background del body
+    document.body.classList.remove('modal-background');
     setShowModal(false);
   };
+
+  const handleOpenSecondModal = () => {
+    setShowSecondModal(true);
+  };
+
+  const handleCloseSecondModal = () => {
+    setShowSecondModal(false);
+  };
+
+
 
   return (
     <>
@@ -51,20 +79,54 @@ function App() {
                   width: '80px',
                   margin: '0 0 0px 78%'
                 }} onClick={() => handleCloseModal()}>Cerrar</button>
-              {/* <img className='imgModalHome'
-                    style={{
-                      minWidth: '50px',
-                      maxWidth: '500px',
-                     paddingTop: '30px',
-                     margin: '0 auto',
-                      paddingBottom: '30px'
-                    }} src={vinculos2} alt='Vinculos II'/> */}
-              <video className='videoModalHome' width="80%" height="300px" autoplay="autoplay" muted loop controls>
+              <img className='imgModalHome'
+                style={{
+                  minWidth: '50px',
+                  maxWidth: '310px',
+                  paddingTop: '30px',
+                  margin: '0 auto',
+                  paddingBottom: '20px'
+                }} src={constelaciones} alt='Constelaciones' />
+              {/* <video className='videoModalHome' width="80%" height="300px" autoplay="autoplay" muted loop controls>
                 <source src={videoHome} type="video/mp4"></source>
                 Tu navegador no admite el elemento de video.
+              </video> */}
+
+
+              <a href='https://tienda.ladoh.com/producto/entradas-evento-%C2%A8nuevas-constelaciones-familiares-cuanticas' target='blank' style={{ textDecoration: 'none', paddingBottom: '10px' }}>
+                <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }}>Comprar entradas</Button>
+              </a>
+
+              <span>
+                <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }} onClick={() => handleOpenSecondModal()}
+                >
+                  Ver más</Button>
+              </span>
+            </div>
+          </div>
+        )}
+
+
+        {showSecondModal && (
+          <div className="modal-wrapper">
+            <div className="modal second-modal">
+            <button className='btn--primary btnModalHome'
+                style={{
+                  cursor: 'pointer',
+                  borderRadius: '10px',
+                  backgroundColor: '#588290',
+                  color: 'fff',
+                  padding: '5px',
+                  fontWeight: 'bold',
+                  width: '80px',
+                  margin: '0 0 0px 78%'
+                }} onClick={() => handleCloseSecondModal()}>Cerrar</button>
+              <video className='videoModalConstelaciones' width="100%" height="400px" autoplay="autoplay" loop controls>
+                <source src={videoConstelaciones} type="video/mp4"></source>
+                Tu navegador no admite el elemento de video.
               </video>
-              <a href='https://www.kier.com.ar/Papel/9789501760644/Vinculos+Ii' target='blank' style={{ textDecoration: 'none' }}>
-                <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }}>Comprar</Button>
+              <a href='https://tienda.ladoh.com/producto/entradas-evento-%C2%A8nuevas-constelaciones-familiares-cuanticas' target='blank' style={{ textDecoration: 'none', paddingBottom: '10px' }}>
+                <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }}>Comprar entradas</Button>
               </a>
             </div>
           </div>

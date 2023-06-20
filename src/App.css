@@ -12,6 +12,7 @@ body {
   text-justify: inter-character;
 
 }
+
 .home,
 
 .encuentros {
@@ -24,7 +25,7 @@ body {
   text-align: center;
 }
 
-.encuentros-intro{
+.encuentros-intro {
   font-family: 'Montserrat';
   font-weight: 300;
   display: flex;
@@ -34,61 +35,61 @@ body {
   width: 60%;
   text-align: center;
   line-height: 2rem;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding-top: 1rem;
 }
 
-.encuentros-intro h1{
+.encuentros-intro h1 {
   padding-top: 1rem;
-    color: #c38820;
-    padding-bottom: 1rem;
-  }
+  color: #c38820;
+  padding-bottom: 1rem;
+}
 
-  .gabriela-intro{
-    font-family: 'Montserrat';
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 620px;
-    margin: 0 auto;
-    padding-top: 2rem;
-   
-  }
-  
-  .gabriela-intro h1{
-      color: #588290;
-      font-size: 1.4rem;
-      padding-bottom: 1rem;
-    }
-  
-    .gabriela-intro h2{
-      font-size: 1rem;
-      line-height: 1.6rem;
-      margin: 0
-    }
+.gabriela-intro {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 620px;
+  margin: 0 auto;
+  padding-top: 2rem;
 
-    .img-container{
-      min-width: '80%'
-    }
+}
 
-    .nosotras {
-      display: flex;
-      text-align: justify;
-      max-width: 800px;
-      margin: 0 auto;
-      justify-content: center;
-    }
+.gabriela-intro h1 {
+  color: #588290;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
 
-.nosotras-content{
+.gabriela-intro h2 {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin: 0
+}
+
+.img-container {
+  min-width: '80%'
+}
+
+.nosotras {
+  display: flex;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.nosotras-content {
   display: flex;
   flex-direction: column;
   width: 50%;
 }
-  
-.nosotras-col{
+
+.nosotras-col {
   width: 100%;
   margin: 0rem;
   padding-top: 2rem;
@@ -100,7 +101,7 @@ body {
   width: 20px;
 }
 
-.nosotras-col2{
+.nosotras-col2 {
   width: 100%;
   margin: 0 4rem 0 4rem;
   padding-top: 2rem;
@@ -108,18 +109,18 @@ body {
   line-height: 22px;
 }
 
-.nosotrasImg{
+.nosotrasImg {
   border-radius: 5px;
-  padding-top: 0!important;
+  padding-top: 0 !important;
   box-shadow: 0 0px 8px 0 rgb(0, 19, 38, 0.5), 0 7px 20px 0 rgb(0, 19, 38, 0.1);
 }
 
-h2{
+h2 {
   padding-bottom: 10px;
 }
 
 .talleres {
-/*   background-image: url('/images/img-2.jpg'); */
+  /*   background-image: url('/images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -128,7 +129,7 @@ h2{
 }
 
 .products {
-/*   background-image: url('/images/img-1.jpg'); */
+  /*   background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -141,23 +142,25 @@ h2{
   max-width: 80vw;
   max-height: 100vh;
   box-shadow: 0 4px 14px 0 rgb(0 0 0 / 50%);
-  position: relative; /* Add this to make the modal's position relative to the container */
+  position: relative;
+  /* Add this to make the modal's position relative to the container */
   min-height: 150px;
   margin: 0 auto;
   padding: 20px;
-background: white;
-border-radius: 10px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .modalHome {
   max-width: 40vw;
   max-height: 100vh;
   box-shadow: 0 4px 14px 0 rgb(0 0 0 / 50%);
-  position: relative; /* Add this to make the modal's position relative to the container */
+  position: relative;
+  /* Add this to make the modal's position relative to the container */
   min-height: 150px;
   margin: 0 auto;
   padding: 20px;
@@ -172,11 +175,11 @@ text-align: center;
 .modal p {
   color: #444;
   font-size: 14px;
-  margin: 0 2rem 1rem 2rem ;
+  margin: 0 2rem 1rem 2rem;
   line-height: 18px;
 }
 
-.infoModal{
+.infoModal {
   background-color: #588290;
   border-radius: 20px;
   padding: 0.5rem;
@@ -184,33 +187,32 @@ text-align: center;
 
 .p-info {
   max-width: 70vw;
-  margin: 0px!important;
-  color: white!important;
-  padding: 1em!important;
+  margin: 0px !important;
+  color: white !important;
+  padding: 1em !important;
 }
 
-.modalOrangeBox{
+.modalOrangeBox {
   border-radius: 10px;
-  border:1px solid #cfab2e;
+  border: 1px solid #cfab2e;
   padding: 1rem;
 }
 
-.video{
+.video {
   width: 400px;
 }
 
-@media screen and (max-device-width: 599px), screen and (max-width: 599px) {
-	.imgModalHome{
-    margin: 0!important;
-  }
+@media screen and (max-device-width: 599px),
+screen and (max-width: 599px) {
 
   .btnModalHome {
-    margin: 0px 0px 0px 68%!important;
+    margin: 0px 0px 0px 68% !important;
   }
 
-  .video{
+  .video {
     width: 300px;
   }
+
   .nosotras {
     display: flex;
     flex-direction: column;
@@ -218,23 +220,24 @@ text-align: center;
     justify-content: center;
     align-items: center;
     width: 100%;
-/*     min-width: 400px; */
+    /*     min-width: 400px; */
   }
 
-  .nosotras-col{
+  .nosotras-col {
     padding-top: 2rem;
     margin: 0 auto;
     width: 90%;
   }
 
-  
-  .nosotras-col2{
+
+  .nosotras-col2 {
     padding-top: 2rem;
     margin: 0 auto;
     width: 90%;
   }
-  .nosotras-content{
-    width: 90%!important;
+
+  .nosotras-content {
+    width: 90% !important;
   }
 
   .container {
@@ -245,7 +248,7 @@ text-align: center;
     margin: 0 auto;
   }
 
-  h1{
+  h1 {
     font-size: 1.6rem;
   }
 
@@ -258,62 +261,69 @@ text-align: center;
     padding-top: 10px;
   }
 
-  .gabriela-intro h1{
+  .gabriela-intro h1 {
     font-size: 1.3rem;
   }
 
-  img-container{
+  img-container {
     width: 100vw;
   }
 
-  .modal{
-    margin: 0.5rem auto!important;
-/*     height: auto; */
+  .modal {
+    margin: 0.5rem auto !important;
+    /*     height: auto; */
   }
-  
-.modal p {
-  margin: 0rem 0rem 1rem 0rem;
-  font-size: 11px;
-  text-align: justify;
+
+  .modal p {
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 11px;
+    text-align: justify;
+  }
+
+  .p-info {
+    text-align: center !important;
+    font-size: 14px !important;
+  }
+
+
+
+  .nosotras-col {
+    padding-bottom: 20px;
+  }
+
+
+  .nosotrasImg {
+    margin: 0 !important;
+    border-radius: 5px;
+    padding-top: 0 !important;
+    box-shadow: 0 0px 8px 0 rgb(0, 19, 38, 0.5), 0 7px 20px 0 rgb(0, 19, 38, 0.1);
+  }
+
+  h2 {
+    padding-bottom: 20px;
+  }
+
 }
 
-.p-info{
-  text-align: center!important;
-  font-size: 14px!important;
-}
-
-
-
-.nosotras-col{
-  padding-bottom: 20px;
-}
-
-
-.nosotrasImg{
-  margin: 0!important;
-  border-radius: 5px;
-  padding-top: 0!important;
-  box-shadow: 0 0px 8px 0 rgb(0, 19, 38, 0.5), 0 7px 20px 0 rgb(0, 19, 38, 0.1);
-}
-
-h2 {
-  padding-bottom: 20px;
-}
-
+@media screen and (max-device-width: 464px),
+screen and (max-width: 464px) {
+  .imgModalHome {
+    margin: 0 !important;
+  }
 }
 
 .backdrop {
   position: fixed;
-  overflow: auto; 
+  overflow: auto;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
-.modal-content{
+.modal-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -353,14 +363,50 @@ body.modal-open {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999!important;
+  z-index: 999 !important;
 }
 
-.videoModalVinculos2{
+.videoModalVinculos2 {
   padding-bottom: 10px;
 }
 
-.videoModalHome{
-  margin:0 auto; 
+.videoModalHome {
+  margin: 0 auto;
   padding: 10px 0;
+}
+
+.videoModalConstelaciones {
+  margin: 0px auto;
+  padding: 10px 0;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+
+.filter-container label {
+  padding: 0 10px;
+}
+
+.filter-container select {
+  width: 200px;
+  height: 28px;
+  border-radius: 8px;
+  border: solid 2px #c38820;
+  background-color: #eef8fe;
+}
+
+@media screen and (max-device-width: 599px),
+screen and (max-width: 599px) {
+  .filter-container {
+    flex-direction: column;
+  }
+
+  .filter-container label {
+    padding: 10px 10px;
+  }
 }
