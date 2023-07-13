@@ -13,8 +13,8 @@ import Prensa from './components/pages/Prensa';
 // import vinculos2 from './components/images/vinculos2modal.jpg'
 import { Button } from '@mui/material';
 // import videoHome from './components/images/home.mp4'
-import constelaciones from './components/images/constelaciones.jpeg'
-import videoConstelaciones from './components/images/video-constelaciones.mp4'
+import homosapiens from './components/images/homosapiens.jpeg'
+import videoHomosapiens from './components/images/video-homosapiens.mp4'
 
 
 function App() {
@@ -79,23 +79,19 @@ function App() {
                   width: '80px',
                   margin: '0 0 0px 78%'
                 }} onClick={() => handleCloseModal()}>Cerrar</button>
+               <h2 className='textoModalHome'>Atención Rosario, presentamos Vínculos II y tenemos taller de constelaciones familiares</h2> 
               <img className='imgModalHome'
                 style={{
                   minWidth: '50px',
                   maxWidth: '310px',
-                  paddingTop: '30px',
+                  paddingTop: '0px',
                   margin: '0 auto',
                   paddingBottom: '20px'
-                }} src={constelaciones} alt='Constelaciones' />
+                }} src={homosapiens} alt='Vinculos II Presentación' />
               {/* <video className='videoModalHome' width="80%" height="300px" autoplay="autoplay" muted loop controls>
                 <source src={videoHome} type="video/mp4"></source>
                 Tu navegador no admite el elemento de video.
               </video> */}
-
-
-              <a href='https://tienda.ladoh.com/producto/entradas-evento-%C2%A8nuevas-constelaciones-familiares-cuanticas' target='blank' style={{ textDecoration: 'none', paddingBottom: '10px' }}>
-                <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }}>Comprar entradas</Button>
-              </a>
 
               <span>
                 <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }} onClick={() => handleOpenSecondModal()}
@@ -122,12 +118,9 @@ function App() {
                   margin: '0 0 0px 78%'
                 }} onClick={() => handleCloseSecondModal()}>Cerrar</button>
               <video className='videoModalConstelaciones' width="100%" height="400px" autoplay="autoplay" loop controls>
-                <source src={videoConstelaciones} type="video/mp4"></source>
+                <source src={videoHomosapiens} type="video/mp4"></source>
                 Tu navegador no admite el elemento de video.
               </video>
-              <a href='https://tienda.ladoh.com/producto/entradas-evento-%C2%A8nuevas-constelaciones-familiares-cuanticas' target='blank' style={{ textDecoration: 'none', paddingBottom: '10px' }}>
-                <Button style={{ backgroundColor: '#cfab2e', borderRadius: "10px", color: 'white', margin: 0 }}>Comprar entradas</Button>
-              </a>
             </div>
           </div>
         )}

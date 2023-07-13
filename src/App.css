@@ -305,8 +305,8 @@ screen and (max-width: 599px) {
 
 }
 
-@media screen and (max-device-width: 464px),
-screen and (max-width: 464px) {
+@media screen and (max-device-width: 374x),
+screen and (max-width: 374px) {
   .imgModalHome {
     margin: 0 !important;
   }
@@ -376,7 +376,7 @@ body.modal-open {
 }
 
 .videoModalConstelaciones {
-  margin: 0px auto;
+  margin: 20px auto;
   padding: 10px 0;
 }
 
@@ -400,6 +400,14 @@ body.modal-open {
   background-color: #eef8fe;
 }
 
+.textoModalHome{
+  padding: 24px 40px 0px 40px;
+  color: #444;
+  font-size: 14px;
+  margin: 0 2rem 1rem 2rem;
+  line-height: 18px;
+}
+
 @media screen and (max-device-width: 599px),
 screen and (max-width: 599px) {
   .filter-container {
@@ -408,5 +416,13 @@ screen and (max-width: 599px) {
 
   .filter-container label {
     padding: 10px 10px;
+  }
+
+  .textoModalHome{
+    padding: 24px 20px 0px 20px;
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 13px;
+    line-height: 16px;
+
   }
 }
